@@ -1,0 +1,49 @@
+name: Mojo daily post
+
+on:
+  schedule:
+    - cron: "30 3 * * *"     # 03:30 UTC = 09:00 AM IST, every day
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build today's post (fetch -> Sonnet -> photo -> render)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python run_all_mojo.py
+
+      - name: Commit rendered images
+        run: |
+          git config user.name  "mojo-bot"
+          git config user.email "mojo-bot@users.noreply.github.com"
+          git add output/ assets/ posted.json
+          git commit -m "post: $(date -u +%F)" || echo "nothing to commit"
+          git push
+          echo "POST_SHA=$(git rev-parse HEAD)" >> $GITHUB_ENV
+
+      - name: Publish carousel to Instagram
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IMAGE_BASE_URL: "https://raw.githubusercontent.com/${{ github.repository }}/${{ env.POST_SHA }}/output"
+        run: python publish.py
+
+      - name: Log the post
+        run: |
+          git add posted.json || true
+          git commit -m "log: $(date -u +%F)" || echo "nothing to log"
+          git push || echo "no log push"

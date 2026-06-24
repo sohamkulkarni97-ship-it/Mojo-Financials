@@ -1,0 +1,6 @@
+{
+  "handle": "@firm.mojo",
+  "slides": [
+    {"type": "photocover", "label": "Tax Planning", "image": "assets/photo_test.png", "headline": "The 5-minute check that could save you ₹50,000 in tax", "highlight": "₹50,000"}
+  ]
+}

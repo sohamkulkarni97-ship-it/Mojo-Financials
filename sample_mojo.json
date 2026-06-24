@@ -1,0 +1,11 @@
+{
+  "handle": "@firm.mojo",
+  "slides": [
+    {"type": "cover", "label": "Tax Planning", "headline": "New vs old tax regime: which one actually saves you more?", "highlight": "saves you more", "source": "FY 2025-26"},
+    {"type": "bignum", "label": "Did you know", "value": "₹46,800", "body": "is the extra tax the average salaried person pays — just by skipping 80C + 80D deductions."},
+    {"type": "table", "label": "The math", "title": "On a ₹12L salary", "cols": [{"head": "Old regime", "value": "₹1.17L"}, {"head": "New regime", "value": "₹83K"}], "highlight": "You save ₹34,000 with the new regime"},
+    {"type": "list", "label": "Avoid this", "title": "5 GST mistakes that trigger a notice", "points": ["Claiming ITC without a valid tax invoice", "GSTR-1 and GSTR-3B figures not matching", "Missing the e-invoicing turnover threshold", "Wrong place-of-supply on your invoices", "Ignoring reverse charge on freight & legal fees"]},
+    {"type": "feature", "label": "Tax Files", "headline": "The ₹22,000 crore case that shook Indian tax", "highlight": "₹22,000 crore", "body": "Vodafone vs India — the retrospective tax fight, explained simply."},
+    {"type": "cta", "headline": "Tax stress? Talk to us.", "highlight": "Talk to us.", "body": "GST from ₹600 · ITR from ₹999 · 100% on-time filing · Vadodara", "cta": "WhatsApp +91 98241 41138"}
+  ]
+}
