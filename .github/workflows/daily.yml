@@ -30,7 +30,7 @@ jobs:
         run: |
           git config user.name  "mojo-bot"
           git config user.email "mojo-bot@users.noreply.github.com"
-          git add output/ assets/ posted.json
+          git add -A
           git commit -m "post: $(date -u +%F)" || echo "nothing to commit"
           git push
           echo "POST_SHA=$(git rev-parse HEAD)" >> $GITHUB_ENV
