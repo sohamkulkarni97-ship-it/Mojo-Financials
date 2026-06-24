@@ -1,65 +1,82 @@
 {
-  "chosen_title": "ITR filing 2026: Have foreign assets or income? Not reporting them may cost you ₹10 lakh",
-  "lane": "ITR",
-  "series": "The Numbers",
+  "chosen_title": "Income Tax Dept Flags 20,000 'Swapped Provisions' Cases — The Section 87A Trick That Backfired",
+  "lane": "tax",
+  "series": "Busted",
   "score": 88,
-  "caption": "That old ESOP. That forgotten US bank account. That foreign FD you never closed.\nIf it's not in your ITR this July 31 — it could cost you ₹10 lakh.\n\nIndia's Black Money Act makes it mandatory for every resident taxpayer to disclose foreign assets and income in Schedule FA of their ITR — every single year, even if the asset earned nothing. Foreign bank accounts, ESOPs, RSUs, shares in a foreign company, overseas property, a beneficial interest in a foreign trust — all of it must be declared.\n\nThe penalty is a flat ₹10 lakh per year of non-disclosure. No warnings, no sliding scale. And the assessing officer can go back multiple years.\n\nFor illustration: Rajan worked at a US MNC, held ESOPs, and had a US bank account. He returned to India in 2023 but skipped Schedule FA in FY24 and FY25. Potential exposure: ₹10L × 2 years = ₹20 lakh — on assets that may have earned almost nothing. (Illustration only; actual liability depends on individual facts.)\n\nWhat to do: Check your AIS on the income tax portal, dig out ESOP and broker statements, and disclose every foreign asset in Schedule FA before July 31, 2026.\n\nNot sure what qualifies? Drop us a WhatsApp — we'll sort it out quickly.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: Black Money (Undisclosed Foreign Income and Assets) and Imposition of Tax Act, 2015; Income Tax Act, 1961.\n\n#IncomeTax #ITR #ITRFiling2026 #ForeignAssets #TaxPlanning #TaxSavingTips #PersonalFinanceIndia #CharteredAccountant #Vadodara #BlackMoneyAct #ESOP #SmallBusiness",
+  "caption": "The Income Tax Department has quietly flagged up to 20,000 returns — all for the same reason: a ₹25,000 rebate used in exactly the wrong place.\n\nSection 87A gives new-regime filers with income up to ₹7 lakh a rebate of up to ₹25,000 on their slab tax. Completely legal. The catch: it cannot touch special-rate taxes — STCG on equities at 15–20%, LTCG at 10–12.5%. Some filers applied the rebate there anyway to zero out their capital-gains tax bill.\n\nIllustration only: Salary ₹4L → slab tax ₹5,000 → 87A wipes it out → ₹0. STCG from equity mutual funds ₹2L → tax @15% = ₹30,000. Wrong move: apply remaining 87A headroom to bring that ₹30,000 down to ₹10,000. Correct position: STCG tax is fully owed — ₹30,000 — plus interest under 234B/234C for the shortfall.\n\nThe department is now cross-matching ITR data with broker-reported capital gains in your AIS. The mismatches are easy for them to catch.\n\nWhat to do: Pull up your AY 2024-25 and AY 2025-26 ITR computation, check exactly how 87A was applied, and if capital-gains tax was offset, talk to a CA before a notice arrives — a proactive revised return signals good faith and limits damage.\n\nDrop us a WhatsApp and we'll check it with you.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: Economic Times, June 2026\n\n#IncomeTax #Section87A #CapitalGains #ITR #TaxNotice #TaxSavingTips #PersonalFinanceIndia #ITRFiling2026 #Vadodara #CharteredAccountant #TaxPlanning #TaxCompliance",
   "slides": [
     {
       "type": "photocover",
-      "label": "THE NUMBERS",
-      "image_prompt": "Hyper-realistic editorial photograph of an Indian professional man in his late 30s sitting at a modern home-office desk, looking visibly stressed and worried. He holds a small stack of documents — some resemble foreign bank statements with multi-currency headers, others look like equity grant letters. A laptop in front of him shows a government tax-filing portal on screen. A coffee mug and scattered papers surround him. Warm but tense indoor lighting, soft bokeh background of a tidy home office. No text, numbers, logos, or UI elements visible anywhere in the image.",
-      "headline": "The ₹10 lakh fine hiding in your ITR",
-      "highlight": "₹10 lakh",
+      "label": "BUSTED",
+      "image_prompt": "A worried Indian man in his early 30s, dressed in a casual shirt, sitting at a cluttered home-study desk in a middle-class Indian apartment. He holds an official-looking printed government notice letter and stares at it with visible concern. A laptop on the desk shows what appears to be an income tax e-filing portal. Scattered A4 papers, a pen, reading glasses, and a cold cup of chai are visible. Warm but tense indoor lighting from a single desk lamp. Realistic editorial photography style. Absolutely no text, logos, or words visible anywhere in the image.",
+      "headline": "20,000 Indians just got flagged for this one tax move",
+      "highlight": "20,000",
       "image": "assets/gen_00.png"
     },
     {
       "type": "explainer",
-      "label": "THE NUMBERS",
-      "headline": "Foreign asset + silence = ₹10 lakh penalty",
-      "highlight": "₹10 lakh",
-      "body": "India's Black Money Act requires every resident taxpayer to disclose foreign assets and income in Schedule FA of their ITR — every year, even if the asset earned zero. Miss the disclosure and the penalty is a flat ₹10 lakh per year of non-filing. No warnings. No proportionality. The clock is ticking: deadline is July 31, 2026."
+      "label": "BUSTED",
+      "headline": "Section 87A: the rebate that genuinely saves — and silently traps",
+      "highlight": "silently traps",
+      "body": "In the new tax regime, if your total income is ₹7 lakh or below, Section 87A wipes out your slab-income tax — up to ₹25,000 — completely legally. Thousands of filers use it every year. The problem is not the rebate. The problem is where some people tried to apply it."
     },
     {
-      "type": "list",
-      "label": "ITR",
-      "title": "What counts as a 'foreign asset'?",
-      "points": [
-        "Foreign bank accounts — including NRE/NRO accounts you forgot to close after returning to India.",
-        "ESOPs, RSUs, or shares in a foreign company received from your employer.",
-        "Foreign immovable property — land, apartment, or any ownership interest abroad.",
-        "Beneficial interest in a foreign trust, partnership, or any overseas entity.",
-        "Any foreign-sourced income — overseas salary, dividends, rent, or capital gains."
-      ]
+      "type": "explainer",
+      "label": "BUSTED",
+      "headline": "The trick: using leftover 87A headroom to erase capital-gains tax",
+      "highlight": "capital-gains tax",
+      "body": "Section 87A can only offset tax computed at normal slab rates. It cannot reduce tax on special-rate income — Short-Term Capital Gains (STCG) on equities taxed at 15–20%, or Long-Term Capital Gains (LTCG) taxed at 10–12.5%. Some filers had unused rebate headroom after zeroing out their slab tax and applied it to capital-gains tax too. The Income Tax Department noticed."
+    },
+    {
+      "type": "table",
+      "label": "BUSTED",
+      "title": "Where 87A Works — and Where It Doesn't",
+      "cols": [
+        {
+          "head": "Income type",
+          "value": "87A rebate?"
+        },
+        {
+          "head": "Salary / FD interest / business income (slab rate)",
+          "value": "✅ Applies"
+        },
+        {
+          "head": "STCG on equity shares / equity mutual funds (15–20%)",
+          "value": "❌ Does NOT apply"
+        },
+        {
+          "head": "LTCG on equities above ₹1.25L (10–12.5%)",
+          "value": "❌ Does NOT apply"
+        },
+        {
+          "head": "Crypto / Virtual Digital Assets (30%)",
+          "value": "❌ Does NOT apply"
+        }
+      ],
+      "highlight": "Does NOT apply"
     },
     {
       "type": "bignum",
       "label": "THE NUMBERS",
-      "value": "₹10,00,000",
-      "body": "Flat penalty per year of non-disclosure under the Black Money Act — Section 42. The assessing officer can go back multiple assessment years. Two missed ITRs can stack up to ₹20 lakh in fines, even if the underlying asset earned very little."
-    },
-    {
-      "type": "feature",
-      "label": "ITR",
-      "headline": "Illustration: Rajan's ₹20 lakh oversight",
-      "highlight": "₹20 lakh",
-      "body": "Rajan worked at a US MNC, received ESOPs, and held a US bank account. He returned to India in 2023 — but skipped Schedule FA in both FY24 and FY25 ITRs, assuming the amounts were too small to matter. Potential exposure: ₹10 lakh × 2 years = ₹20 lakh. On assets that barely earned anything. This is an illustration only; actual outcomes depend on individual facts and officer discretion."
+      "value": "20,000",
+      "body": "Cases flagged by the Income Tax Department for AY 2024-25 where 87A was incorrectly used against special-rate capital-gains tax. Notices and demand letters are already being issued. Illustration only: Salary ₹4L → slab tax ₹5,000 → 87A covers it → ₹0. STCG on equity funds ₹2L → tax @15% = ₹30,000. Wrong claim: use remaining rebate headroom → pay ₹10,000. Correct position: full ₹30,000 owed — plus interest for underpayment."
     },
     {
       "type": "list",
-      "label": "ITR",
-      "title": "4 things to do before July 31, 2026",
+      "label": "BUSTED",
+      "title": "What to do right now — before the notice lands",
       "points": [
-        "Open your Annual Information Statement (AIS) on the income tax portal and check for any foreign credits or entries.",
-        "Locate all ESOP/RSU grant letters, foreign broker statements, and overseas bank account details — even dormant ones.",
-        "Disclose every foreign account, asset, and income in Schedule FA of your ITR, even if the balance or income was zero.",
-        "Missed a previous year? Talk to a CA about a revised or updated return — acting early is always better than waiting for a notice."
+        "Open your ITR computation for AY 2024-25 and AY 2025-26 — look at the tax-calculation sheet and check exactly where the 87A rebate was applied.",
+        "If the rebate was used to offset STCG, LTCG, or any special-rate tax, the correct tax is still owed — along with interest under Sections 234B and 234C for the underpayment.",
+        "If the return filing window is still open, file a revised return proactively — it signals good faith and can reduce scrutiny.",
+        "If a notice has already arrived, respond within the stated deadline; ignoring it leads to ex-parte orders and higher penalties.",
+        "The department is cross-matching ITR data with broker-reported capital gains in your AIS — these mismatches are straightforward for them to identify and act on."
       ]
     },
     {
       "type": "cta",
-      "headline": "Foreign asset in your past? Talk to us.",
-      "highlight": "Talk to us",
+      "headline": "Got a notice? Or want to check your ITR?",
+      "highlight": "check your ITR",
       "body": "GST from ₹600 · ITR from ₹999 · 100% on-time · Vadodara",
       "cta": "WhatsApp +91 98241 41138"
     }
