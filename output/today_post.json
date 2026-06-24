@@ -1,306 +1,68 @@
 {
-  "chosen_title": "Common ITR mistakes that trigger a notice",
+  "chosen_title": "ITR filing 2026: Have foreign assets or income? Not reporting them may cost you ₹10 lakh",
   "lane": "ITR",
-  "series": "60-Second Explainer",
-  "score": 86,
-  "candidate_scores": [
-    {
-      "id": 0,
-      "title": "8% Profit Addition Deleted — ITAT Delhi",
-      "score": 37
-    },
-    {
-      "id": 1,
-      "title": "Bank Did Not Relinquish Security — NCLT",
-      "score": 30
-    },
-    {
-      "id": 2,
-      "title": "Gujarat HC Quashes Section 271D SCNs",
-      "score": 37
-    },
-    {
-      "id": 3,
-      "title": "Income Tax Reopening Quashed — IBC Section 31",
-      "score": 45
-    },
-    {
-      "id": 4,
-      "title": "ITAT Deletes TP Adjustment — TNMM Accepted",
-      "score": 31
-    },
-    {
-      "id": 5,
-      "title": "Gujarat HC Quashes Assessment — Section 68 No Reasons",
-      "score": 41
-    },
-    {
-      "id": 6,
-      "title": "ITAT Deletes Demonetisation Cash Deposit Addition",
-      "score": 49
-    },
-    {
-      "id": 7,
-      "title": "ITAT Allows Gratuity Deduction — Approved Fund",
-      "score": 47
-    },
-    {
-      "id": 8,
-      "title": "7 Silent Money Mistakes Draining Middle-Class India",
-      "score": 71
-    },
-    {
-      "id": 9,
-      "title": "Can a Bank Seize Your Vehicle After EMI Default?",
-      "score": 72
-    },
-    {
-      "id": 10,
-      "title": "20L Investment — SBI FD vs SCSS vs RBI Bond",
-      "score": 65
-    },
-    {
-      "id": 11,
-      "title": "6 Ways Parents Bulletproof Child's Education Fund",
-      "score": 57
-    },
-    {
-      "id": 12,
-      "title": "Birthday Cake Never Arrived — ₹4,000 Compensation",
-      "score": 49
-    },
-    {
-      "id": 13,
-      "title": "US Estate Tax 40% on ESOP for Non-US Residents",
-      "score": 66
-    },
-    {
-      "id": 14,
-      "title": "8th Pay Commission — Minimum/Maximum Salary Since 1947",
-      "score": 51
-    },
-    {
-      "id": 15,
-      "title": "OPS Benefit Extended to Compassionate Appointees",
-      "score": 51
-    },
-    {
-      "id": 16,
-      "title": "8th Pay Commission — 5 NC-JCM Reforms",
-      "score": 41
-    },
-    {
-      "id": 17,
-      "title": "Gold, Silver Prices Today June 24",
-      "score": 30
-    },
-    {
-      "id": 18,
-      "title": "9 Triggers for Mandatory ITR Filing",
-      "score": 82
-    },
-    {
-      "id": 19,
-      "title": "Does NAV Matter When Choosing a Mutual Fund?",
-      "score": 58
-    },
-    {
-      "id": 20,
-      "title": "Foreign Assets or Income? Not Reporting May Cost ₹10 Lakh",
-      "score": 81
-    },
-    {
-      "id": 21,
-      "title": "Nikhil Kamath's 3 Top Investment Themes",
-      "score": 42
-    },
-    {
-      "id": 22,
-      "title": "Countries Requiring Travel Insurance for Entry",
-      "score": 50
-    },
-    {
-      "id": 23,
-      "title": "SpaceX Falls Below IPO Price — Futuristic Tech Allocation",
-      "score": 31
-    },
-    {
-      "id": 24,
-      "title": "UPI & Aadhaar Drive 61% of MSME Transactions",
-      "score": 49
-    },
-    {
-      "id": 25,
-      "title": "LiLLBUD Raises ₹6 Crore Seed Round",
-      "score": 21
-    },
-    {
-      "id": 26,
-      "title": "India Emerges as World's Top Ship-Recycling Nation",
-      "score": 27
-    },
-    {
-      "id": 27,
-      "title": "McCain Bullish on India's Snacking Boom",
-      "score": 24
-    },
-    {
-      "id": 28,
-      "title": "Cruise Tourism as MSME Multiplier",
-      "score": 28
-    },
-    {
-      "id": 29,
-      "title": "Railways Showed the Way — What Should India Electrify Next?",
-      "score": 24
-    },
-    {
-      "id": 30,
-      "title": "MSMEs Are India's Entrepreneurship Nursery — RBI Governor",
-      "score": 39
-    },
-    {
-      "id": 31,
-      "title": "India Has Export-Ready Products — DP World",
-      "score": 28
-    },
-    {
-      "id": 32,
-      "title": "Due Tomorrow: GST PMT-06 for QRMP Filers",
-      "score": 71
-    },
-    {
-      "id": 33,
-      "title": "Vodafone vs India — ₹22,000 Crore Retrospective Tax Case",
-      "score": 65
-    },
-    {
-      "id": 34,
-      "title": "Old vs New Tax Regime — Which Actually Saves More?",
-      "score": 79
-    },
-    {
-      "id": 35,
-      "title": "Fake GST Invoice (Fake ITC) Racket — How It Works",
-      "score": 77
-    },
-    {
-      "id": 36,
-      "title": "ESOP Taxation in India, Explained",
-      "score": 65
-    },
-    {
-      "id": 37,
-      "title": "Pvt Ltd vs LLP vs Proprietorship — What to Choose",
-      "score": 72
-    },
-    {
-      "id": 38,
-      "title": "McDowell Case — Tax Planning vs Avoidance vs Evasion",
-      "score": 54
-    },
-    {
-      "id": 39,
-      "title": "Section 80C — The ₹1.5L Deduction Most People Underuse",
-      "score": 75
-    },
-    {
-      "id": 40,
-      "title": "HRA Exemption and the Fake-Rent-Receipt Trap",
-      "score": 81
-    },
-    {
-      "id": 41,
-      "title": "Presumptive Taxation 44AD / 44ADA for Small Business",
-      "score": 76
-    },
-    {
-      "id": 42,
-      "title": "Advance Tax — The 234B/234C Interest Trap",
-      "score": 72
-    },
-    {
-      "id": 43,
-      "title": "How Big Companies Legally Cut Their Tax Bill",
-      "score": 61
-    },
-    {
-      "id": 44,
-      "title": "Capital Gains on Stocks & MFs — STCG vs LTCG",
-      "score": 79
-    },
-    {
-      "id": 45,
-      "title": "Common ITR Mistakes That Trigger a Notice",
-      "score": 86
-    },
-    {
-      "id": 46,
-      "title": "Gifts and Tax Under Section 56",
-      "score": 68
-    },
-    {
-      "id": 47,
-      "title": "NPS — The Extra ₹50,000 Deduction Under 80CCD(1B)",
-      "score": 78
-    }
-  ],
-  "caption": "Filing your ITR before July 31? These 3 mistakes are why lakhs of Indians get income tax notices every year — and most don't see them coming.\n\nThe IT department's Annual Information Statement (AIS) has your complete financial picture: FD interest, dividends, stock sales, rental income — all reported directly by banks and institutions. If your ITR shows less than what your AIS records, their system auto-flags it. No human needed to catch you.\n\nThe sneakiest miss is bank interest. Forget to declare ₹45,000 in FD interest + ₹8,000 savings interest = ₹53,000 unreported. At a 30% slab with cess, that's ~₹16,500 in extra tax demand — plus Section 234B interest on top. (Illustrative numbers only.)\n\nAnd the wrong ITR form? ITR-1 is only for simple salaried income under ₹50L. Freelancers, business owners, and anyone with capital gains or foreign income needs a different form. File the wrong one and you get a defective return notice — and start over.\n\nWhat to do: Log in to incometax.gov.in → AIS → download and cross-check every entry before you hit Submit.\n\nNot sure what applies to your case? WhatsApp us — we'll check your AIS and file it right the first time.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: Income Tax Act 1961; AIS framework under Section 285BB.\n\n#IncomeTax #ITR #ITRFiling #TaxNotice #TaxSavingTips #PersonalFinanceIndia #AIS26AS #CharteredAccountant #SmallBusiness #Vadodara #TaxPlanning #ITR2026",
+  "series": "The Numbers",
+  "score": 88,
+  "caption": "That old ESOP. That forgotten US bank account. That foreign FD you never closed.\nIf it's not in your ITR this July 31 — it could cost you ₹10 lakh.\n\nIndia's Black Money Act makes it mandatory for every resident taxpayer to disclose foreign assets and income in Schedule FA of their ITR — every single year, even if the asset earned nothing. Foreign bank accounts, ESOPs, RSUs, shares in a foreign company, overseas property, a beneficial interest in a foreign trust — all of it must be declared.\n\nThe penalty is a flat ₹10 lakh per year of non-disclosure. No warnings, no sliding scale. And the assessing officer can go back multiple years.\n\nFor illustration: Rajan worked at a US MNC, held ESOPs, and had a US bank account. He returned to India in 2023 but skipped Schedule FA in FY24 and FY25. Potential exposure: ₹10L × 2 years = ₹20 lakh — on assets that may have earned almost nothing. (Illustration only; actual liability depends on individual facts.)\n\nWhat to do: Check your AIS on the income tax portal, dig out ESOP and broker statements, and disclose every foreign asset in Schedule FA before July 31, 2026.\n\nNot sure what qualifies? Drop us a WhatsApp — we'll sort it out quickly.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: Black Money (Undisclosed Foreign Income and Assets) and Imposition of Tax Act, 2015; Income Tax Act, 1961.\n\n#IncomeTax #ITR #ITRFiling2026 #ForeignAssets #TaxPlanning #TaxSavingTips #PersonalFinanceIndia #CharteredAccountant #Vadodara #BlackMoneyAct #ESOP #SmallBusiness",
   "slides": [
     {
       "type": "photocover",
-      "label": "ITR",
-      "image_prompt": "Hyper-realistic editorial photograph: a stressed Indian man in his early 40s, wearing a light-blue collared shirt, sitting at a wooden home-office desk. He holds a white government-looking envelope with both hands, eyes wide with anxiety. An open laptop to his right shows what appears to be an income tax government portal. A neat stack of papers, a pen, and a small calculator sit on the desk. Warm morning daylight streams through a half-open window on the left, casting soft shadows. Shallow depth of field. DSLR quality. No text, logos, or readable words anywhere in the image.",
-      "headline": "3 ITR mistakes that bring a tax notice to your door",
-      "highlight": "tax notice",
-      "image": "assets\\gen_00.png"
+      "label": "THE NUMBERS",
+      "image_prompt": "Hyper-realistic editorial photograph of an Indian professional man in his late 30s sitting at a modern home-office desk, looking visibly stressed and worried. He holds a small stack of documents — some resemble foreign bank statements with multi-currency headers, others look like equity grant letters. A laptop in front of him shows a government tax-filing portal on screen. A coffee mug and scattered papers surround him. Warm but tense indoor lighting, soft bokeh background of a tidy home office. No text, numbers, logos, or UI elements visible anywhere in the image.",
+      "headline": "The ₹10 lakh fine hiding in your ITR",
+      "highlight": "₹10 lakh",
+      "image": "assets/gen_00.png"
     },
     {
       "type": "explainer",
-      "label": "ITR",
-      "headline": "Mistake #1 — the IT dept already knows your income",
-      "highlight": "already knows",
-      "body": "The Annual Information Statement (AIS) pulls data from banks, mutual funds, employers, brokers, and property registrars. Every interest credit, dividend, and asset sale is logged there. If your ITR income is lower than what the AIS shows, an automated flag goes up — no human required to catch the mismatch."
-    },
-    {
-      "type": "explainer",
-      "label": "ITR",
-      "headline": "Mistake #2 — ignoring bank interest",
-      "highlight": "bank interest",
-      "body": "FD interest and savings account interest are taxable income, and your bank reports every rupee of them to the IT department. Most people forget to include these — especially across multiple bank accounts. Even ₹30,000–₹50,000 in unreported interest can generate a demand notice within months of filing."
-    },
-    {
-      "type": "explainer",
-      "label": "ITR",
-      "headline": "Mistake #3 — filing the wrong ITR form",
-      "highlight": "wrong ITR form",
-      "body": "ITR-1 is only for salaried individuals with income up to ₹50L and no capital gains or business income. Freelancers need ITR-3 or ITR-4. Anyone with foreign assets, rental income, or stock gains needs a different form too. Wrong form = defective return notice = you file all over again."
-    },
-    {
-      "type": "bignum",
-      "label": "ITR",
-      "value": "₹16,500+",
-      "body": "Illustration: Ravi earns ₹10L in salary. He skips declaring ₹45,000 FD interest + ₹8,000 savings interest = ₹53,000 unreported. At a 30% slab with 4% cess, that's ~₹16,500 in extra tax demand — before Section 234B interest is added. One AIS cross-check, fifteen minutes, would have caught all of it. (Illustrative numbers — not a guarantee.)"
+      "label": "THE NUMBERS",
+      "headline": "Foreign asset + silence = ₹10 lakh penalty",
+      "highlight": "₹10 lakh",
+      "body": "India's Black Money Act requires every resident taxpayer to disclose foreign assets and income in Schedule FA of their ITR — every year, even if the asset earned zero. Miss the disclosure and the penalty is a flat ₹10 lakh per year of non-filing. No warnings. No proportionality. The clock is ticking: deadline is July 31, 2026."
     },
     {
       "type": "list",
       "label": "ITR",
-      "title": "Your pre-filing checklist",
+      "title": "What counts as a 'foreign asset'?",
       "points": [
-        "Download your AIS from incometax.gov.in and match every line item against your own records before you file.",
-        "Add up FD interest and savings account interest from every bank account you hold — all of it is reportable.",
-        "Confirm you are using the correct ITR form for your income type; when in doubt, ask a CA.",
-        "Declare capital gains on stocks and mutual funds, even if the total falls within the ₹1.25L LTCG exempt limit.",
-        "File before July 31 — early filing gives you time to spot, correct, and resubmit without penalties."
+        "Foreign bank accounts — including NRE/NRO accounts you forgot to close after returning to India.",
+        "ESOPs, RSUs, or shares in a foreign company received from your employer.",
+        "Foreign immovable property — land, apartment, or any ownership interest abroad.",
+        "Beneficial interest in a foreign trust, partnership, or any overseas entity.",
+        "Any foreign-sourced income — overseas salary, dividends, rent, or capital gains."
+      ]
+    },
+    {
+      "type": "bignum",
+      "label": "THE NUMBERS",
+      "value": "₹10,00,000",
+      "body": "Flat penalty per year of non-disclosure under the Black Money Act — Section 42. The assessing officer can go back multiple assessment years. Two missed ITRs can stack up to ₹20 lakh in fines, even if the underlying asset earned very little."
+    },
+    {
+      "type": "feature",
+      "label": "ITR",
+      "headline": "Illustration: Rajan's ₹20 lakh oversight",
+      "highlight": "₹20 lakh",
+      "body": "Rajan worked at a US MNC, received ESOPs, and held a US bank account. He returned to India in 2023 — but skipped Schedule FA in both FY24 and FY25 ITRs, assuming the amounts were too small to matter. Potential exposure: ₹10 lakh × 2 years = ₹20 lakh. On assets that barely earned anything. This is an illustration only; actual outcomes depend on individual facts and officer discretion."
+    },
+    {
+      "type": "list",
+      "label": "ITR",
+      "title": "4 things to do before July 31, 2026",
+      "points": [
+        "Open your Annual Information Statement (AIS) on the income tax portal and check for any foreign credits or entries.",
+        "Locate all ESOP/RSU grant letters, foreign broker statements, and overseas bank account details — even dormant ones.",
+        "Disclose every foreign account, asset, and income in Schedule FA of your ITR, even if the balance or income was zero.",
+        "Missed a previous year? Talk to a CA about a revised or updated return — acting early is always better than waiting for a notice."
       ]
     },
     {
       "type": "cta",
-      "headline": "Tax stress? Talk to us.",
+      "headline": "Foreign asset in your past? Talk to us.",
       "highlight": "Talk to us",
       "body": "GST from ₹600 · ITR from ₹999 · 100% on-time · Vadodara",
       "cta": "WhatsApp +91 98241 41138"
     }
   ],
-  "handle": "@mojofinancials"
+  "handle": "@firm.mojo"
 }
