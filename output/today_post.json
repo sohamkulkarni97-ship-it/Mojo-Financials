@@ -1,82 +1,54 @@
 {
-  "chosen_title": "Income Tax Dept Flags 20,000 'Swapped Provisions' Cases — The Section 87A Trick That Backfired",
-  "lane": "tax",
+  "chosen_title": "How the fake-GST-invoice (fake ITC) racket works",
+  "lane": "GST",
   "series": "Busted",
-  "score": 88,
-  "caption": "The Income Tax Department has quietly flagged up to 20,000 returns — all for the same reason: a ₹25,000 rebate used in exactly the wrong place.\n\nSection 87A gives new-regime filers with income up to ₹7 lakh a rebate of up to ₹25,000 on their slab tax. Completely legal. The catch: it cannot touch special-rate taxes — STCG on equities at 15–20%, LTCG at 10–12.5%. Some filers applied the rebate there anyway to zero out their capital-gains tax bill.\n\nIllustration only: Salary ₹4L → slab tax ₹5,000 → 87A wipes it out → ₹0. STCG from equity mutual funds ₹2L → tax @15% = ₹30,000. Wrong move: apply remaining 87A headroom to bring that ₹30,000 down to ₹10,000. Correct position: STCG tax is fully owed — ₹30,000 — plus interest under 234B/234C for the shortfall.\n\nThe department is now cross-matching ITR data with broker-reported capital gains in your AIS. The mismatches are easy for them to catch.\n\nWhat to do: Pull up your AY 2024-25 and AY 2025-26 ITR computation, check exactly how 87A was applied, and if capital-gains tax was offset, talk to a CA before a notice arrives — a proactive revised return signals good faith and limits damage.\n\nDrop us a WhatsApp and we'll check it with you.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: Economic Times, June 2026\n\n#IncomeTax #Section87A #CapitalGains #ITR #TaxNotice #TaxSavingTips #PersonalFinanceIndia #ITRFiling2026 #Vadodara #CharteredAccountant #TaxPlanning #TaxCompliance",
+  "score": 85,
+  "caption": "A supplier you've never met could be pocketing GST — and leaving you to face the raid.\n\nFake ITC scams work like this: shell companies register on the GST portal — on paper only, no warehouse, no staff, no real goods. They issue invoices to real businesses, collect GST from them, and never deposit a single rupee with the government. The buyer claims Input Tax Credit on tax the government never received.\n\nYou could be three links down the chain and completely innocent — but the department traces the network back to you. 📌 Illustration: ₹50L purchase, ₹9L GST (18%) claimed as ITC. Supplier turns out to be a shell firm. Outcome: ₹9L reversed + ₹2.16L interest (24% p.a. for one year) + up to ₹9L penalty = ₹20L+ exposure. (Numbers are illustrative only.) For ITC fraud above ₹5 crore, Section 132 of the CGST Act allows arrest.\n\nThe fix is simple: verify every supplier's GSTIN on the portal, cross-check your GSTR-2B before filing, and never claim ITC that isn't already reflecting in your statement.\n\nWhat to do: search your top suppliers on gstin.gov.in right now — their filing status is visible in seconds.\n\nGot an ITC mismatch or GST notice? WhatsApp us — we'll tell you exactly where you stand.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: CGST Act, Sections 16, 74, 122 and 132 (publicly available legislation).\n\n#GST #FakeInvoice #GSTCompliance #InputTaxCredit #SmallBusiness #GSTIndia #TaxFraud #Vadodara #CharteredAccountant #TaxPlanning #BusinessOwner #GSTAlert",
   "slides": [
     {
       "type": "photocover",
       "label": "BUSTED",
-      "image_prompt": "A worried Indian man in his early 30s, dressed in a casual shirt, sitting at a cluttered home-study desk in a middle-class Indian apartment. He holds an official-looking printed government notice letter and stares at it with visible concern. A laptop on the desk shows what appears to be an income tax e-filing portal. Scattered A4 papers, a pen, reading glasses, and a cold cup of chai are visible. Warm but tense indoor lighting from a single desk lamp. Realistic editorial photography style. Absolutely no text, logos, or words visible anywhere in the image.",
-      "headline": "20,000 Indians just got flagged for this one tax move",
-      "highlight": "20,000",
+      "image_prompt": "A middle-aged Indian male shop owner seated at a cluttered wooden desk in a small dimly lit office, looking alarmed as he grips a thick stack of printed GST invoices, a laptop open beside him showing a tax portal dashboard, a single overhead lamp casting sharp dramatic shadows, shelves of paper files and binders stacked behind him, dust particles visible in the air, hyper-realistic editorial photograph, no text or overlays in the image",
+      "headline": "The GST scam that's getting innocent businesses raided",
+      "highlight": "innocent businesses",
       "image": "assets/gen_00.png"
     },
     {
-      "type": "explainer",
+      "type": "feature",
       "label": "BUSTED",
-      "headline": "Section 87A: the rebate that genuinely saves — and silently traps",
-      "highlight": "silently traps",
-      "body": "In the new tax regime, if your total income is ₹7 lakh or below, Section 87A wipes out your slab-income tax — up to ₹25,000 — completely legally. Thousands of filers use it every year. The problem is not the rebate. The problem is where some people tried to apply it."
+      "headline": "How the fake-invoice chain is built",
+      "highlight": "fake-invoice chain",
+      "body": "Shell companies register on the GST portal with valid GSTINs — but no warehouse, no workers, no actual goods. They issue invoices, collect GST from real buyers, and vanish without depositing a rupee with the government. The buyer claims Input Tax Credit on tax that was never paid."
     },
     {
       "type": "explainer",
       "label": "BUSTED",
-      "headline": "The trick: using leftover 87A headroom to erase capital-gains tax",
-      "highlight": "capital-gains tax",
-      "body": "Section 87A can only offset tax computed at normal slab rates. It cannot reduce tax on special-rate income — Short-Term Capital Gains (STCG) on equities taxed at 15–20%, or Long-Term Capital Gains (LTCG) taxed at 10–12.5%. Some filers had unused rebate headroom after zeroing out their slab tax and applied it to capital-gains tax too. The Income Tax Department noticed."
-    },
-    {
-      "type": "table",
-      "label": "BUSTED",
-      "title": "Where 87A Works — and Where It Doesn't",
-      "cols": [
-        {
-          "head": "Income type",
-          "value": "87A rebate?"
-        },
-        {
-          "head": "Salary / FD interest / business income (slab rate)",
-          "value": "✅ Applies"
-        },
-        {
-          "head": "STCG on equity shares / equity mutual funds (15–20%)",
-          "value": "❌ Does NOT apply"
-        },
-        {
-          "head": "LTCG on equities above ₹1.25L (10–12.5%)",
-          "value": "❌ Does NOT apply"
-        },
-        {
-          "head": "Crypto / Virtual Digital Assets (30%)",
-          "value": "❌ Does NOT apply"
-        }
-      ],
-      "highlight": "Does NOT apply"
+      "headline": "You might be the last link — and not even know it",
+      "highlight": "not even know it",
+      "body": "Your supplier looks legitimate: GSTIN, invoice, everything ticks. But two links up the chain sits a shell firm. The department traces the network back to you and reverses your ITC. 📌 Illustration: ₹50L purchase, ₹9L GST claimed as ITC. Supplier found to be a shell. Exposure: ₹9L reversed + ₹2.16L interest (24% p.a.) + up to ₹9L penalty = ₹20L+ hit. Illustrative only — actual outcomes vary."
     },
     {
       "type": "bignum",
       "label": "THE NUMBERS",
-      "value": "20,000",
-      "body": "Cases flagged by the Income Tax Department for AY 2024-25 where 87A was incorrectly used against special-rate capital-gains tax. Notices and demand letters are already being issued. Illustration only: Salary ₹4L → slab tax ₹5,000 → 87A covers it → ₹0. STCG on equity funds ₹2L → tax @15% = ₹30,000. Wrong claim: use remaining rebate headroom → pay ₹10,000. Correct position: full ₹30,000 owed — plus interest for underpayment."
+      "value": "100%",
+      "body": "The penalty on fraudulent ITC under Section 122 of the CGST Act equals the full tax amount — on top of 24% annual interest. For fraud above ₹5 crore, Section 132 allows arrest. What started as a supplier shortcut becomes a criminal case for the business at the end of the chain."
     },
     {
       "type": "list",
       "label": "BUSTED",
-      "title": "What to do right now — before the notice lands",
+      "title": "5 ways to keep your ITC clean",
       "points": [
-        "Open your ITR computation for AY 2024-25 and AY 2025-26 — look at the tax-calculation sheet and check exactly where the 87A rebate was applied.",
-        "If the rebate was used to offset STCG, LTCG, or any special-rate tax, the correct tax is still owed — along with interest under Sections 234B and 234C for the underpayment.",
-        "If the return filing window is still open, file a revised return proactively — it signals good faith and can reduce scrutiny.",
-        "If a notice has already arrived, respond within the stated deadline; ignoring it leads to ex-parte orders and higher penalties.",
-        "The department is cross-matching ITR data with broker-reported capital gains in your AIS — these mismatches are straightforward for them to identify and act on."
+        "Look up every new supplier's GSTIN on the GST portal and check whether they are actively filing returns — it takes 30 seconds.",
+        "Only claim ITC that is already reflecting in your GSTR-2B; never claim on the basis of a paper invoice alone.",
+        "Watch for red flags: brand-new registrations, round-number invoices, no physical address, and no traceable business presence.",
+        "Keep e-way bill records for every inward supply — proof that goods actually moved is your strongest defence.",
+        "If you receive an ITC mismatch or scrutiny notice, respond before the deadline with full invoice, payment, and receipt documentation."
       ]
     },
     {
       "type": "cta",
-      "headline": "Got a notice? Or want to check your ITR?",
-      "highlight": "check your ITR",
+      "headline": "GST notice? Let's sort it.",
+      "highlight": "Let's sort it",
       "body": "GST from ₹600 · ITR from ₹999 · 100% on-time · Vadodara",
       "cta": "WhatsApp +91 98241 41138"
     }
