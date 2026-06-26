@@ -3,7 +3,12 @@ name: Mojo daily post
 on:
   schedule:
     - cron: "30 13 * * *"    # 13:30 UTC = 07:00 PM IST, every day
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Preview only — build & commit slides, do NOT post to Instagram"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -36,6 +41,7 @@ jobs:
           echo "POST_SHA=$(git rev-parse HEAD)" >> $GITHUB_ENV
 
       - name: Publish carousel to Instagram
+        if: ${{ github.event.inputs.dry_run != 'true' }}
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
@@ -43,6 +49,7 @@ jobs:
         run: python publish.py
 
       - name: Log the post
+        if: ${{ github.event.inputs.dry_run != 'true' }}
         run: |
           git add posted.json || true
           git commit -m "log: $(date -u +%F)" || echo "nothing to log"
