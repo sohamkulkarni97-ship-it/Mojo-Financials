@@ -261,10 +261,61 @@ def s_photocover(d, s, ctx):
     footer(d, ctx, dark=True, swipe=True)
 
 
+def _x_mark(d, x, y, s, color):
+    d.line([(x, y), (x + s, y + s)], fill=color, width=9)
+    d.line([(x + s, y), (x, y + s)], fill=color, width=9)
+
+
+def _check_mark(d, x, y, s, color):
+    d.line([(x, y + s * 0.55), (x + s * 0.42, y + s)], fill=color, width=9)
+    d.line([(x + s * 0.42, y + s), (x + s, y)], fill=color, width=9)
+
+
+def s_statement(d, s, ctx):
+    """One bold claim on a dark teal slide — a punchy visual break, not a text wall."""
+    label(d, s.get("label", "REAL TALK"), 230, GOLD)
+    headline(d, s.get("headline", s.get("text", "")), (M, 330, W - 2 * M, 640), CREAM,
+             hi=s.get("highlight"), hi_color=GOLD, max_size=124, valign="center")
+    d.rectangle([M, 1020, M + 70, 1028], fill=GOLD)
+    footer(d, ctx, dark=True, swipe=True)
+
+
+def s_mythfact(d, s, ctx):
+    """Two stacked panels: ✕ MYTH (soft red) over ✓ TRUTH (teal). Very scannable."""
+    label(d, s.get("label", "MYTH vs FACT"), 230, TEAL)
+    t1, ph = 320, 340
+    d.rounded_rectangle([M, t1, W - M, t1 + ph], radius=22, fill=(240, 228, 226))
+    _x_mark(d, M + 34, t1 + 34, 34, (180, 66, 54))
+    d.text((M + 96, t1 + 30), "MYTH", font=inter(32, 800), fill=(180, 66, 54))
+    para(d, s.get("myth", ""), (M + 36, t1 + 110, W - 2 * M - 72, ph - 130), size=40,
+         fill=INK, weight=600)
+    t2 = t1 + ph + 28
+    d.rounded_rectangle([M, t2, W - M, t2 + ph], radius=22, fill=TEAL_DEEP)
+    _check_mark(d, M + 34, t2 + 34, 34, MINT)
+    d.text((M + 96, t2 + 30), "TRUTH", font=inter(32, 800), fill=MINT)
+    para(d, s.get("truth", ""), (M + 36, t2 + 110, W - 2 * M - 72, ph - 130), size=40,
+         fill=CREAM, weight=600)
+    footer(d, ctx)
+
+
+def s_photofeature(d, s, ctx):
+    """An inner slide carried by a photo — breaks up the text rhythm mid-deck."""
+    label(d, s.get("label", "THE STORY"), 690, GOLD)
+    headline(d, s.get("headline", ""), (M, 752, W - 2 * M, 250), CREAM,
+             hi=s.get("highlight"), hi_color=GOLD, max_size=82, valign="top")
+    if s.get("caption"):
+        para(d, s["caption"], (M, 1018, W - 2 * M, 130), size=32, fill=MINT, weight=600)
+    footer(d, ctx, dark=True, swipe=True)
+
+
 _R = {"cover": s_cover, "bignum": s_bignum, "table": s_table, "list": s_list,
       "feature": s_feature, "cta": s_cta, "photocover": s_photocover,
-      "explainer": s_explainer}
-_BG = {"feature": INK, "cta": TEAL_DEEP, "photocover": INK}
+      "explainer": s_explainer, "statement": s_statement, "mythfact": s_mythfact,
+      "photofeature": s_photofeature}
+_BG = {"feature": INK, "cta": TEAL_DEEP, "photocover": INK, "statement": TEAL_DEEP,
+       "photofeature": INK}
+_PHOTO_TYPES = ("photocover", "photofeature")
+_DARK_TYPES = ("feature", "cta", "photocover", "statement", "photofeature")
 
 
 def render_post(post, out_dir=OUT):
@@ -274,10 +325,10 @@ def render_post(post, out_dir=OUT):
     for i, s in enumerate(post["slides"], 1):
         s["index"] = i
         img = Image.new("RGB", (W, H), _BG.get(s.get("type"), CREAM))
-        if s.get("type") == "photocover" and s.get("image"):
+        if s.get("type") in _PHOTO_TYPES and s.get("image"):
             paste_cover_photo(img, os.path.join(HERE, s["image"]))
         _R.get(s.get("type"), s_cover)(ImageDraw.Draw(img), s, ctx)
-        place_logo(img, dark=s.get("type") in ("feature", "cta", "photocover"))
+        place_logo(img, dark=s.get("type") in _DARK_TYPES)
         p = os.path.join(out_dir, f"slide_{i:02d}.png")
         img.save(p)
         paths.append(p)

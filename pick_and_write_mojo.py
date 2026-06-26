@@ -45,32 +45,47 @@ PICK A SERIES/ANGLE (sets the tone): Due This Week (a deadline), Money Myths,
 scam — how it works + how to avoid), Legal but Genius (legal tax-saving), or a
 plain SME/personal-finance tip.
 
-CAROUSEL RULES:
-- 5 to 7 slides. Slide 1 is the cover; the LAST slide is always a "cta".
+CAROUSEL RULES (BOLD & VARIED — must feel fresh every day, NEVER a wall of text):
+- 5 to 7 slides. Slide 1 is the cover; the LAST slide is always "cta".
+- VARIETY IS MANDATORY: use a MIX of distinct formats across the deck, never the same
+  layout twice, and use AT MOST ONE text-paragraph "explainer" slide. Pull from:
+  photocover, photofeature, bignum, table, mythfact, statement, list, feature.
+- RHYTHM: alternate light and dark/bold slides so swiping feels dynamic (statement &
+  feature are dark; bignum, table, mythfact, list are light). Put at least one BIG-impact
+  visual beat in the middle — a huge number (bignum), a bold claim (statement), or a
+  myth-vs-fact (mythfact).
+- KEEP TEXT SHORT. Punchy headlines; bodies are 1-3 TIGHT sentences max. The caption
+  carries the depth — slides are for the hook, the number, and the one key idea.
 - LEAD WITH THE READER'S MONEY, not the rule. Bad: "Section 80C allows ₹1.5L."
-  Good: "The ₹46,800 most salaried people hand the govt for no reason."
-- Include ONE concrete worked example with round, clearly-illustrative numbers
-  (e.g. "On a ₹12L salary…"). Mark it as an illustration, never a guarantee.
-- Carry the real substance across the slides; the caption then gives 100%.
-- Highlight ONE punchy word/number per headline via "highlight".
+  Good: "₹46,800 most salaried people hand the govt for nothing."
+- Include ONE concrete worked example with round, clearly-illustrative numbers; mark it
+  as an illustration, never a guarantee. Highlight ONE punchy word/number per headline.
 
-IMAGE: put exactly ONE realistic photo on the COVER, via "image_prompt" on a
-"photocover" slide — a hyper-realistic, on-topic editorial scene (e.g. an Indian
-shop-owner at a billing counter; a worried taxpayer with papers; the gavel/
-courthouse mood for a Tax Files case). Describe it fully; NO text in the image.
-Inner slides use clean layouts (no images).
+IMAGES (2-3 per post — one image made the page too text-heavy):
+- The COVER is a "photocover" with a strong, scene-specific "image_prompt".
+- Add 1-2 MORE image slides — a "photofeature" mid-deck and/or a second photocover-style
+  beat — each with its OWN "image_prompt" (never reuse a prompt; each is specific to that
+  slide's point).
+- Every image slide also sets "image_mode" — pick the mood that fits the story:
+    editorial = real human/business moment    noir = scam / fraud / court-case drama
+    concept   = bold object or visual metaphor  bright = a win, relief, aspiration
+  e.g. a scam → noir; a tax-saving win → bright or concept; a deadline → editorial.
+- image_prompt = a vivid, SPECIFIC picture (subject, setting, mood, one telling detail).
+  No text/words/numbers in the image.
 
 SLIDE SCHEMA — every slide needs a "type":
-  photocover : type,label,image_prompt,headline,highlight   (the cover — realistic photo)
-  cover      : type,label,headline,highlight                 (clean cover, use if no good photo)
-  explainer  : type,label,headline,highlight,body            (body = 2-4 plain sentences)
-  bignum     : type,label,value (e.g. "₹46,800"),body
-  table      : type,label,title,cols (exactly 2 of {{head,value}}),highlight
-  list       : type,label,title,points (3-6 full-sentence strings)
-  feature    : type,label,headline,highlight,body            (dark Tax Files / Busted beat)
-  cta        : type,headline,highlight,body,cta
-LABELS (uppercase): DUE THIS WEEK, MONEY MYTH, EXPLAINER, THE NUMBERS, TAX FILES,
-BUSTED, LEGAL BUT GENIUS, TAX PLANNING, GST, ITR, FOR BUSINESS.
+  photocover  : type,label,image_prompt,image_mode,headline,highlight    (cover, full-bleed photo)
+  photofeature: type,label,image_prompt,image_mode,headline,highlight,caption  (inner photo; caption = 1 short line)
+  statement   : type,label,headline,highlight                 (ONE bold claim on a dark slide — a punchy break)
+  mythfact    : type,label,myth,truth                         (myth = the wrong belief; truth = the fix; each 1-2 sentences)
+  bignum      : type,label,value (e.g. "₹46,800"),body        (body = 1-2 sentences)
+  table       : type,label,title,cols (exactly 2 of {{head,value}}),highlight
+  list        : type,label,title,points (3-5 SHORT strings)
+  feature     : type,label,headline,highlight,body            (dark Tax Files / Busted beat; body = 1-2 sentences)
+  explainer   : type,label,headline,highlight,body            (use AT MOST ONCE; body = 2-3 sentences)
+  cta         : type,headline,highlight,body,cta
+LABELS (uppercase): DUE THIS WEEK, MONEY MYTH, EXPLAINER, THE NUMBERS, TAX FILES, BUSTED,
+LEGAL BUT GENIUS, TAX PLANNING, GST, ITR, FOR BUSINESS, MYTH vs FACT, REAL TALK.
 
 The final "cta" slide: headline like "Tax stress? Talk to us.", body
 "GST from ₹600 · ITR from ₹999 · 100% on-time · Vadodara", cta "WhatsApp {WHATSAPP}".

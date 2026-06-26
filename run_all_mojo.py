@@ -14,27 +14,36 @@ HERE = pw.HERE
 IMG_QUALITY = os.environ.get("MOJO_IMG_QUALITY", "high")   # "high" or "medium"
 
 
+def _fallback(s):
+    """If an image can't be generated, swap the photo slide for a clean text layout."""
+    if s.get("type") == "photocover":
+        s["type"] = "cover"
+    elif s.get("type") == "photofeature":
+        s["type"] = "feature"                 # dark text beat
+        s.setdefault("body", s.get("caption", ""))
+
+
 def _add_photos(post):
     if not os.environ.get("OPENAI_API_KEY"):
-        print("[note] OPENAI_API_KEY not set — cover will use a clean layout.")
+        print("[note] OPENAI_API_KEY not set — image slides use clean layouts.")
         for s in post["slides"]:
-            if s.get("type") == "photocover":
-                s["type"] = "cover"           # graceful fallback
+            _fallback(s)
         return
     import gen_image_mojo
     for i, s in enumerate(post["slides"]):
         prompt = s.get("image_prompt")
         if not prompt:
             continue
+        mode = s.get("image_mode", "editorial")
         rel = os.path.join("assets", f"gen_{i:02d}.png")
         try:
-            gen_image_mojo.generate(prompt, os.path.join(HERE, rel), quality=IMG_QUALITY)
+            gen_image_mojo.generate(prompt, os.path.join(HERE, rel), mode=mode,
+                                    quality=IMG_QUALITY)
             s["image"] = rel
-            print(f"  photo -> {rel}  ({prompt[:50]}...)")
+            print(f"  photo [{mode}] -> {rel}  ({prompt[:46]}...)")
         except Exception as e:
-            print(f"  [warn] photo gen failed ({e}); cover falls back to clean layout.")
-            if s.get("type") == "photocover":
-                s["type"] = "cover"
+            print(f"  [warn] photo gen failed ({e}); slide falls back to clean layout.")
+            _fallback(s)
 
 
 def main():

@@ -1,11 +1,52 @@
 {
+  "chosen_title": "The fake rent receipt trap",
+  "lane": "tax",
+  "series": "Busted",
+  "score": 88,
   "handle": "@firm.mojo",
+  "caption": "Sample caption.\n\nNote: general information, not professional advice — talk to us for your specific case.",
   "slides": [
-    {"type": "cover", "label": "Tax Planning", "headline": "New vs old tax regime: which one actually saves you more?", "highlight": "saves you more", "source": "FY 2025-26"},
-    {"type": "bignum", "label": "Did you know", "value": "₹46,800", "body": "is the extra tax the average salaried person pays — just by skipping 80C + 80D deductions."},
-    {"type": "table", "label": "The math", "title": "On a ₹12L salary", "cols": [{"head": "Old regime", "value": "₹1.17L"}, {"head": "New regime", "value": "₹83K"}], "highlight": "You save ₹34,000 with the new regime"},
-    {"type": "list", "label": "Avoid this", "title": "5 GST mistakes that trigger a notice", "points": ["Claiming ITC without a valid tax invoice", "GSTR-1 and GSTR-3B figures not matching", "Missing the e-invoicing turnover threshold", "Wrong place-of-supply on your invoices", "Ignoring reverse charge on freight & legal fees"]},
-    {"type": "feature", "label": "Tax Files", "headline": "The ₹22,000 crore case that shook Indian tax", "highlight": "₹22,000 crore", "body": "Vodafone vs India — the retrospective tax fight, explained simply."},
-    {"type": "cta", "headline": "Tax stress? Talk to us.", "highlight": "Talk to us.", "body": "GST from ₹600 · ITR from ₹999 · 100% on-time filing · Vadodara", "cta": "WhatsApp +91 98241 41138"}
+    {
+      "type": "photocover",
+      "label": "BUSTED",
+      "image_prompt": "noir scene of a crumpled fake rent receipt under a hard desk lamp",
+      "image_mode": "noir",
+      "headline": "The fake rent receipt trap",
+      "highlight": "trap"
+    },
+    {
+      "type": "statement",
+      "label": "REAL TALK",
+      "headline": "A ₹8,000 fake receipt can cost you ₹40,000.",
+      "highlight": "₹40,000"
+    },
+    {
+      "type": "mythfact",
+      "label": "MYTH vs FACT",
+      "myth": "I can claim HRA with a receipt from a relative and never get caught.",
+      "truth": "The dept cross-checks PAN, rent above ₹1L/yr needs the landlord's PAN, and bogus claims trigger notices + penalty."
+    },
+    {
+      "type": "bignum",
+      "label": "THE NUMBERS",
+      "value": "200%",
+      "body": "Penalty on under-reported income for a false claim — on top of the tax and interest you still owe."
+    },
+    {
+      "type": "photofeature",
+      "label": "HOW IT UNRAVELS",
+      "image_prompt": "a tax notice envelope on a doormat, tense morning light",
+      "image_mode": "editorial",
+      "headline": "It starts with one mismatched PAN",
+      "highlight": "one",
+      "caption": "Automated checks flag it months later."
+    },
+    {
+      "type": "cta",
+      "headline": "Tax stress? Talk to us.",
+      "highlight": "Talk",
+      "body": "GST from ₹600 · ITR from ₹999 · 100% on-time · Vadodara",
+      "cta": "WhatsApp +91 98241 41138"
+    }
   ]
 }
