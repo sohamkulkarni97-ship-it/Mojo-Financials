@@ -1,62 +1,63 @@
 {
-  "chosen_title": "Mumbai IT professional claims ₹3.91 lakh TDS, gets ₹3.36 lakh tax demand as employer failed to deposit — ITAT Mumbai rules for employee",
+  "chosen_title": "Employer Didn't Deposit TDS — She Got the Demand",
   "lane": "tax",
   "series": "Tax Files",
   "score": 90,
-  "caption": "Your TDS was cut every month. Your payslip proved it. Then came a ₹3.36 lakh tax demand.\n\nA Mumbai IT professional had ₹3.91 lakh deducted as TDS — but her employer never deposited it with the government. When she filed her ITR claiming the full credit, the department raised a demand because Form 26AS reflected only a fraction. ITAT Mumbai ruled in her favour: an employee cannot be penalised for the employer's failure to deposit TDS, and full credit must be given based on Form 16.\n\nThe practical check: say your Form 16 shows ₹80,000 TDS but Form 26AS reflects only ₹25,000 — that ₹55,000 gap alone can trigger a demand notice. Illustration only; actual numbers vary. Match both every quarter, not just at filing time. If there's a gap, flag it to HR in writing immediately and keep records.\n\nWhat to do: before you file your ITR (due July 31), download Form 26AS and AIS at incometax.gov.in and verify every TDS entry. Any mismatch — get professional help fast, not after the notice lands.\n\nGot a demand notice or a Form 26AS mismatch? WhatsApp us — we'll sort it.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: ITAT Mumbai, as reported on taxguru.in (June 2026)\n\n#IncomeTax #TDS #ITR #Form26AS #TaxFiling #TaxNotice #PersonalFinanceIndia #Vadodara #CharteredAccountant #TaxPlanning #ITRFiling #SalariedIndia",
+  "caption": "Your employer deducted TDS from your salary. But did they actually send it to the government?\n\nIn a real ITAT Mumbai case, an IT professional had ₹3.91 lakh deducted as TDS. Her employer deposited only a fraction — so just ₹79,000 showed up in her Form 26AS. The Income Tax Department sent her a ₹3.36 lakh demand. Zero fault of hers.\n\nITAT Mumbai ruled in her favour: full TDS credit must be granted when the employee can prove deduction through salary slips and Form 16 — even if the employer failed to deposit. But she had to fight all the way to a tribunal to get there.\n\nMost salaried Indians never cross-check Form 26AS before filing. That is exactly how innocent taxpayers end up with shock notices.\n\nWhat to do right now: Log in to incometax.gov.in → download your AIS and Form 26AS → match every TDS row against your Form 16 or salary slips → if there is a gap, raise a grievance on the portal before you file your ITR.\n\nSpotted a mismatch? WhatsApp us — we will tell you exactly what to do next.\n\nNote: general information, not professional advice — talk to us for your specific case.\nSource: ITAT Mumbai, as reported on TaxGuru (2025)\n#IncomeTax #TDS #Form26AS #ITR #ITRFiling #TaxFiling #PersonalFinanceIndia #CharteredAccountant #TaxPlanning #Vadodara #SalariedIndia #TaxSavingTips",
   "slides": [
     {
       "type": "photocover",
       "label": "TAX FILES",
-      "image_prompt": "A crumpled government income-tax demand notice resting on a corporate office desk beside a neatly printed salary payslip, dramatic blue-grey moody lighting with a single pool of desk-lamp light, cinematic close-up, no readable text or numbers visible anywhere in frame",
+      "image_prompt": "A young Indian woman in formal office attire staring at a printed government tax demand notice under a single desk lamp in a dark room, her hand pressed flat on the paper, expression frozen in disbelief, deep shadows, one harsh beam of light on the document",
       "image_mode": "noir",
-      "headline": "Her employer cut ₹3.91 lakh in TDS. Then the govt sent her a ₹3.36 lakh demand.",
-      "highlight": "demand",
+      "headline": "She owed nothing. Got a ₹3.36 lakh demand anyway.",
+      "highlight": "₹3.36 lakh",
       "image": "assets/gen_00.png"
     },
     {
       "type": "bignum",
       "label": "THE NUMBERS",
-      "value": "₹3.36 lakh",
-      "body": "Tax demand issued to a Mumbai IT professional — for TDS her employer deducted from her salary every month but quietly never deposited with the government."
+      "value": "₹3.91L",
+      "body": "Deducted from her salary as TDS. Her employer deposited only ₹79,000 with the government. The tax department came after HER for the ₹3.36 lakh shortfall."
     },
     {
       "type": "statement",
-      "label": "TAX FILES",
-      "headline": "The govt never got the money. But they came after her.",
-      "highlight": "her"
+      "label": "REAL TALK",
+      "headline": "Your employer's failure can become your tax demand.",
+      "highlight": "your tax demand"
     },
     {
       "type": "mythfact",
       "label": "MYTH vs FACT",
-      "myth": "If TDS appears on your payslip, it's been deposited — you're fully covered at filing time.",
-      "truth": "Not always. If your employer doesn't deposit it, the credit won't show in Form 26AS, and the Income Tax Department can raise a demand directly on you."
+      "myth": "If TDS is deducted from your salary, it is automatically deposited with the government.",
+      "truth": "Not always. Employers can deduct TDS from your pay but delay or skip the deposit entirely. Form 26AS only shows what was actually paid — and the gap quietly becomes your problem at filing time."
     },
     {
       "type": "list",
-      "label": "REAL TALK",
-      "title": "Check this before July 31 →",
+      "label": "TAX FILES",
+      "title": "Check this BEFORE you file your ITR",
       "points": [
-        "Download Form 26AS & AIS at incometax.gov.in",
-        "Match every TDS entry against your monthly payslips",
-        "Gap between Form 16 and 26AS? Email HR — in writing, keep the thread",
-        "Never file ITR ignoring a mismatch and hope for the best"
+        "Download AIS & Form 26AS from incometax.gov.in",
+        "Match every TDS row against your Form 16 / salary slips",
+        "Gap found? Raise a grievance on the portal first",
+        "Keep all salary slips — they are your proof if it goes to tribunal",
+        "File only after TDS credits match your documents"
       ]
     },
     {
       "type": "photofeature",
       "label": "TAX FILES",
-      "image_prompt": "Young Indian woman seated at a sunlit home desk, looking at a government portal on her laptop with a visible expression of relief, a printed Form 16 document placed beside the keyboard, warm golden morning light streaming through a window behind her",
-      "image_mode": "bright",
-      "headline": "ITAT ruled: employer's fault, not yours.",
-      "highlight": "employer's fault, not yours",
-      "caption": "Fight back with the right paperwork — Form 16 is your proof.",
+      "image_prompt": "Close-up of two documents laid side by side on a wooden desk in warm morning light — a printed salary slip and a Form 26AS printout — with a red pen circling a highlighted figure on the Form 26AS, no faces, clean and documentary feel",
+      "image_mode": "editorial",
+      "headline": "ITAT ruled in her favour — but she had to prove it.",
+      "highlight": "prove it",
+      "caption": "Salary slips were her evidence. Yours could be too.",
       "image": "assets/gen_05.png"
     },
     {
       "type": "cta",
-      "headline": "Tax notice? Don't face it alone.",
-      "highlight": "Don't face it alone.",
+      "headline": "TDS mismatch? Tax demand? Talk to us.",
+      "highlight": "Talk to us.",
       "body": "GST from ₹600 · ITR from ₹999 · 100% on-time · Vadodara",
       "cta": "WhatsApp +91 98241 41138"
     }
