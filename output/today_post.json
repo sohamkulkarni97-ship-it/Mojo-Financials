@@ -1,54 +1,62 @@
 {
-  "chosen_title": "How the fake-GST-invoice (fake ITC) racket works",
-  "lane": "GST",
-  "series": "Busted",
-  "score": 85,
-  "caption": "A supplier you've never met could be pocketing GST — and leaving you to face the raid.\n\nFake ITC scams work like this: shell companies register on the GST portal — on paper only, no warehouse, no staff, no real goods. They issue invoices to real businesses, collect GST from them, and never deposit a single rupee with the government. The buyer claims Input Tax Credit on tax the government never received.\n\nYou could be three links down the chain and completely innocent — but the department traces the network back to you. 📌 Illustration: ₹50L purchase, ₹9L GST (18%) claimed as ITC. Supplier turns out to be a shell firm. Outcome: ₹9L reversed + ₹2.16L interest (24% p.a. for one year) + up to ₹9L penalty = ₹20L+ exposure. (Numbers are illustrative only.) For ITC fraud above ₹5 crore, Section 132 of the CGST Act allows arrest.\n\nThe fix is simple: verify every supplier's GSTIN on the portal, cross-check your GSTR-2B before filing, and never claim ITC that isn't already reflecting in your statement.\n\nWhat to do: search your top suppliers on gstin.gov.in right now — their filing status is visible in seconds.\n\nGot an ITC mismatch or GST notice? WhatsApp us — we'll tell you exactly where you stand.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: CGST Act, Sections 16, 74, 122 and 132 (publicly available legislation).\n\n#GST #FakeInvoice #GSTCompliance #InputTaxCredit #SmallBusiness #GSTIndia #TaxFraud #Vadodara #CharteredAccountant #TaxPlanning #BusinessOwner #GSTAlert",
+  "chosen_title": "Mumbai IT professional claims ₹3.91 lakh TDS, gets ₹3.36 lakh tax demand as employer failed to deposit — ITAT Mumbai rules for employee",
+  "lane": "tax",
+  "series": "Tax Files",
+  "score": 90,
+  "caption": "Your TDS was cut every month. Your payslip proved it. Then came a ₹3.36 lakh tax demand.\n\nA Mumbai IT professional had ₹3.91 lakh deducted as TDS — but her employer never deposited it with the government. When she filed her ITR claiming the full credit, the department raised a demand because Form 26AS reflected only a fraction. ITAT Mumbai ruled in her favour: an employee cannot be penalised for the employer's failure to deposit TDS, and full credit must be given based on Form 16.\n\nThe practical check: say your Form 16 shows ₹80,000 TDS but Form 26AS reflects only ₹25,000 — that ₹55,000 gap alone can trigger a demand notice. Illustration only; actual numbers vary. Match both every quarter, not just at filing time. If there's a gap, flag it to HR in writing immediately and keep records.\n\nWhat to do: before you file your ITR (due July 31), download Form 26AS and AIS at incometax.gov.in and verify every TDS entry. Any mismatch — get professional help fast, not after the notice lands.\n\nGot a demand notice or a Form 26AS mismatch? WhatsApp us — we'll sort it.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: ITAT Mumbai, as reported on taxguru.in (June 2026)\n\n#IncomeTax #TDS #ITR #Form26AS #TaxFiling #TaxNotice #PersonalFinanceIndia #Vadodara #CharteredAccountant #TaxPlanning #ITRFiling #SalariedIndia",
   "slides": [
     {
       "type": "photocover",
-      "label": "BUSTED",
-      "image_prompt": "A middle-aged Indian male shop owner seated at a cluttered wooden desk in a small dimly lit office, looking alarmed as he grips a thick stack of printed GST invoices, a laptop open beside him showing a tax portal dashboard, a single overhead lamp casting sharp dramatic shadows, shelves of paper files and binders stacked behind him, dust particles visible in the air, hyper-realistic editorial photograph, no text or overlays in the image",
-      "headline": "The GST scam that's getting innocent businesses raided",
-      "highlight": "innocent businesses",
+      "label": "TAX FILES",
+      "image_prompt": "A crumpled government income-tax demand notice resting on a corporate office desk beside a neatly printed salary payslip, dramatic blue-grey moody lighting with a single pool of desk-lamp light, cinematic close-up, no readable text or numbers visible anywhere in frame",
+      "image_mode": "noir",
+      "headline": "Her employer cut ₹3.91 lakh in TDS. Then the govt sent her a ₹3.36 lakh demand.",
+      "highlight": "demand",
       "image": "assets/gen_00.png"
-    },
-    {
-      "type": "feature",
-      "label": "BUSTED",
-      "headline": "How the fake-invoice chain is built",
-      "highlight": "fake-invoice chain",
-      "body": "Shell companies register on the GST portal with valid GSTINs — but no warehouse, no workers, no actual goods. They issue invoices, collect GST from real buyers, and vanish without depositing a rupee with the government. The buyer claims Input Tax Credit on tax that was never paid."
-    },
-    {
-      "type": "explainer",
-      "label": "BUSTED",
-      "headline": "You might be the last link — and not even know it",
-      "highlight": "not even know it",
-      "body": "Your supplier looks legitimate: GSTIN, invoice, everything ticks. But two links up the chain sits a shell firm. The department traces the network back to you and reverses your ITC. 📌 Illustration: ₹50L purchase, ₹9L GST claimed as ITC. Supplier found to be a shell. Exposure: ₹9L reversed + ₹2.16L interest (24% p.a.) + up to ₹9L penalty = ₹20L+ hit. Illustrative only — actual outcomes vary."
     },
     {
       "type": "bignum",
       "label": "THE NUMBERS",
-      "value": "100%",
-      "body": "The penalty on fraudulent ITC under Section 122 of the CGST Act equals the full tax amount — on top of 24% annual interest. For fraud above ₹5 crore, Section 132 allows arrest. What started as a supplier shortcut becomes a criminal case for the business at the end of the chain."
+      "value": "₹3.36 lakh",
+      "body": "Tax demand issued to a Mumbai IT professional — for TDS her employer deducted from her salary every month but quietly never deposited with the government."
+    },
+    {
+      "type": "statement",
+      "label": "TAX FILES",
+      "headline": "The govt never got the money. But they came after her.",
+      "highlight": "her"
+    },
+    {
+      "type": "mythfact",
+      "label": "MYTH vs FACT",
+      "myth": "If TDS appears on your payslip, it's been deposited — you're fully covered at filing time.",
+      "truth": "Not always. If your employer doesn't deposit it, the credit won't show in Form 26AS, and the Income Tax Department can raise a demand directly on you."
     },
     {
       "type": "list",
-      "label": "BUSTED",
-      "title": "5 ways to keep your ITC clean",
+      "label": "REAL TALK",
+      "title": "Check this before July 31 →",
       "points": [
-        "Look up every new supplier's GSTIN on the GST portal and check whether they are actively filing returns — it takes 30 seconds.",
-        "Only claim ITC that is already reflecting in your GSTR-2B; never claim on the basis of a paper invoice alone.",
-        "Watch for red flags: brand-new registrations, round-number invoices, no physical address, and no traceable business presence.",
-        "Keep e-way bill records for every inward supply — proof that goods actually moved is your strongest defence.",
-        "If you receive an ITC mismatch or scrutiny notice, respond before the deadline with full invoice, payment, and receipt documentation."
+        "Download Form 26AS & AIS at incometax.gov.in",
+        "Match every TDS entry against your monthly payslips",
+        "Gap between Form 16 and 26AS? Email HR — in writing, keep the thread",
+        "Never file ITR ignoring a mismatch and hope for the best"
       ]
     },
     {
+      "type": "photofeature",
+      "label": "TAX FILES",
+      "image_prompt": "Young Indian woman seated at a sunlit home desk, looking at a government portal on her laptop with a visible expression of relief, a printed Form 16 document placed beside the keyboard, warm golden morning light streaming through a window behind her",
+      "image_mode": "bright",
+      "headline": "ITAT ruled: employer's fault, not yours.",
+      "highlight": "employer's fault, not yours",
+      "caption": "Fight back with the right paperwork — Form 16 is your proof.",
+      "image": "assets/gen_05.png"
+    },
+    {
       "type": "cta",
-      "headline": "GST notice? Let's sort it.",
-      "highlight": "Let's sort it",
+      "headline": "Tax notice? Don't face it alone.",
+      "highlight": "Don't face it alone.",
       "body": "GST from ₹600 · ITR from ₹999 · 100% on-time · Vadodara",
       "cta": "WhatsApp +91 98241 41138"
     }
