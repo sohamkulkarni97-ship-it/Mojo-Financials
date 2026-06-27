@@ -1,62 +1,216 @@
 {
-  "chosen_title": "Employer Didn't Deposit TDS — She Got the Demand",
+  "chosen_title": "Husband taxed on wife's FD, gold & shares income — Clubbing of Income (Section 64)",
   "lane": "tax",
-  "series": "Tax Files",
-  "score": 90,
-  "caption": "Your employer deducted TDS from your salary. But did they actually send it to the government?\n\nIn a real ITAT Mumbai case, an IT professional had ₹3.91 lakh deducted as TDS. Her employer deposited only a fraction — so just ₹79,000 showed up in her Form 26AS. The Income Tax Department sent her a ₹3.36 lakh demand. Zero fault of hers.\n\nITAT Mumbai ruled in her favour: full TDS credit must be granted when the employee can prove deduction through salary slips and Form 16 — even if the employer failed to deposit. But she had to fight all the way to a tribunal to get there.\n\nMost salaried Indians never cross-check Form 26AS before filing. That is exactly how innocent taxpayers end up with shock notices.\n\nWhat to do right now: Log in to incometax.gov.in → download your AIS and Form 26AS → match every TDS row against your Form 16 or salary slips → if there is a gap, raise a grievance on the portal before you file your ITR.\n\nSpotted a mismatch? WhatsApp us — we will tell you exactly what to do next.\n\nNote: general information, not professional advice — talk to us for your specific case.\nSource: ITAT Mumbai, as reported on TaxGuru (2025)\n#IncomeTax #TDS #Form26AS #ITR #ITRFiling #TaxFiling #PersonalFinanceIndia #CharteredAccountant #TaxPlanning #Vadodara #SalariedIndia #TaxSavingTips",
+  "series": "Money Myths",
+  "score": 78,
+  "candidate_scores": [
+    {
+      "id": 0,
+      "score": 63
+    },
+    {
+      "id": 1,
+      "score": 65
+    },
+    {
+      "id": 2,
+      "score": 58
+    },
+    {
+      "id": 3,
+      "score": 81
+    },
+    {
+      "id": 4,
+      "score": 40
+    },
+    {
+      "id": 5,
+      "score": 45
+    },
+    {
+      "id": 6,
+      "score": 71
+    },
+    {
+      "id": 7,
+      "score": 78
+    },
+    {
+      "id": 8,
+      "score": 42
+    },
+    {
+      "id": 9,
+      "score": 68
+    },
+    {
+      "id": 10,
+      "score": 65
+    },
+    {
+      "id": 11,
+      "score": 55
+    },
+    {
+      "id": 12,
+      "score": 58
+    },
+    {
+      "id": 13,
+      "score": 62
+    },
+    {
+      "id": 14,
+      "score": 38
+    },
+    {
+      "id": 15,
+      "score": 48
+    },
+    {
+      "id": 16,
+      "score": 45
+    },
+    {
+      "id": 17,
+      "score": 48
+    },
+    {
+      "id": 18,
+      "score": 42
+    },
+    {
+      "id": 19,
+      "score": 50
+    },
+    {
+      "id": 20,
+      "score": 55
+    },
+    {
+      "id": 21,
+      "score": 52
+    },
+    {
+      "id": 22,
+      "score": 47
+    },
+    {
+      "id": 23,
+      "score": 40
+    },
+    {
+      "id": 24,
+      "score": 62
+    },
+    {
+      "id": 25,
+      "score": 77
+    },
+    {
+      "id": 26,
+      "score": 65
+    },
+    {
+      "id": 27,
+      "score": 68
+    },
+    {
+      "id": 28,
+      "score": 60
+    },
+    {
+      "id": 29,
+      "score": 72
+    },
+    {
+      "id": 30,
+      "score": 75
+    },
+    {
+      "id": 31,
+      "score": 70
+    },
+    {
+      "id": 32,
+      "score": 72
+    },
+    {
+      "id": 33,
+      "score": 60
+    },
+    {
+      "id": 34,
+      "score": 70
+    },
+    {
+      "id": 35,
+      "score": 74
+    },
+    {
+      "id": 36,
+      "score": 66
+    },
+    {
+      "id": 37,
+      "score": 73
+    }
+  ],
+  "selection_note": "Candidate 3 (July 1 changes) scored highest at 81 but requires citing specific figures for six distinct policy changes — accuracy risk for a regulated firm. Candidate 7 (clubbing of income) at 78 is built on airtight, well-established statute (Section 64), is highly shareable, and fits the 'Money Myths' format perfectly. Gap is within editorial margin; accuracy wins.",
+  "caption": "Everyone's heard it: 'Just put the FD in your wife's name — she's in a lower slab.'\n\nHere's what the Income Tax Act quietly disagrees with. Section 64 — the clubbing of income rule — says if YOU funded it, it's YOUR income. Doesn't matter whose name is on the FD, shares, or gold. The interest, dividends, and capital gains get added straight back to your taxable total.\n\nQuick illustration: Transfer ₹5 lakh to your spouse → she earns ₹35,000 FD interest at 7% → Section 64 clubs it back to YOUR income → at the 30% slab that's ₹10,500 in tax anyway. Exactly what you'd have paid keeping the money. Zero saving, full audit risk. (Illustrative numbers.)\n\nWhat actually works: investing from income she genuinely earns herself — salary, freelance, inheritance; NPS under 80CCD(1B) for an extra ₹50,000 deduction; ELSS or PPF in your own name, clean and documented.\n\nWhat to do: Review your investment structure before you file — a wrong move today is a notice tomorrow.\n\nDrop us a WhatsApp — we'll plan it right together.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\n#IncomeTax #TaxSavingTips #ITR #PersonalFinanceIndia #TaxPlanning #CharteredAccountant #Vadodara #ITRFiling #SmallBusiness #GST #TaxMyths #MoneyMyths",
   "slides": [
     {
-      "type": "photocover",
-      "label": "TAX FILES",
-      "image_prompt": "A young Indian woman in formal office attire staring at a printed government tax demand notice under a single desk lamp in a dark room, her hand pressed flat on the paper, expression frozen in disbelief, deep shadows, one harsh beam of light on the document",
-      "image_mode": "noir",
-      "headline": "She owed nothing. Got a ₹3.36 lakh demand anyway.",
-      "highlight": "₹3.36 lakh",
-      "image": "assets/gen_00.png"
-    },
-    {
-      "type": "bignum",
-      "label": "THE NUMBERS",
-      "value": "₹3.91L",
-      "body": "Deducted from her salary as TDS. Her employer deposited only ₹79,000 with the government. The tax department came after HER for the ₹3.36 lakh shortfall."
-    },
-    {
-      "type": "statement",
-      "label": "REAL TALK",
-      "headline": "Your employer's failure can become your tax demand.",
-      "highlight": "your tax demand"
+      "type": "cover",
+      "label": "MONEY MYTH",
+      "image_prompt": "A middle-aged Indian man sitting at a home dining table at dusk, staring with a furrowed brow at an open FD passbook with his wife's name on it, an income tax notice partially visible under his elbow, a glass of chai going cold beside him, warm lamplight, quiet domestic tension",
+      "image_mode": "editorial",
+      "headline": "Transferred money to your wife to save tax?",
+      "highlight": "save tax"
     },
     {
       "type": "mythfact",
       "label": "MYTH vs FACT",
-      "myth": "If TDS is deducted from your salary, it is automatically deposited with the government.",
-      "truth": "Not always. Employers can deduct TDS from your pay but delay or skip the deposit entirely. Form 26AS only shows what was actually paid — and the gap quietly becomes your problem at filing time."
+      "myth": "Her name on the FD → her income → her lower tax slab. Smart planning.",
+      "truth": "Section 64 clubs that income straight back to you. If you funded it, you pay tax on it — no matter whose passbook it's in."
+    },
+    {
+      "type": "statement",
+      "label": "REAL TALK",
+      "headline": "Her FD. Her PAN. Your tax bill.",
+      "highlight": "Your tax bill."
+    },
+    {
+      "type": "explainer",
+      "label": "EXPLAINER",
+      "headline": "The ₹10,500 that went nowhere",
+      "highlight": "₹10,500",
+      "body": "Transfer ₹5L to your spouse → she earns ₹35,000 FD interest at 7% → Section 64 adds it to YOUR taxable income → at the 30% slab, tax = ₹10,500. The same you'd have paid anyway. Risk of scrutiny added free of charge. (Illustrative numbers — not a guarantee.)"
+    },
+    {
+      "type": "feature",
+      "label": "LEGAL BUT GENIUS",
+      "image_prompt": "A confident young Indian woman in business casuals reviewing her own salary slip and a fresh investment form at a sunlit modern desk, pen in hand, documents neatly arranged, expression calm and self-assured — no man in the frame, sense of independent financial agency",
+      "image_mode": "bright",
+      "headline": "Income she EARNS herself? Never clubbed.",
+      "highlight": "EARNS herself",
+      "caption": "Salary, freelance fees, or inherited money — her own income always stays hers.",
+      "body": "Salary, freelance fees, or inherited money — her own income always stays hers."
     },
     {
       "type": "list",
-      "label": "TAX FILES",
-      "title": "Check this BEFORE you file your ITR",
+      "label": "TAX PLANNING",
+      "title": "What actually saves tax (legally)",
       "points": [
-        "Download AIS & Form 26AS from incometax.gov.in",
-        "Match every TDS row against your Form 16 / salary slips",
-        "Gap found? Raise a grievance on the portal first",
-        "Keep all salary slips — they are your proof if it goes to tribunal",
-        "File only after TDS credits match your documents"
+        "NPS: extra ₹50,000 deduction under 80CCD(1B)",
+        "ELSS / PPF in your own name — clean paper trail",
+        "HUF: a separate tax entity if your family qualifies",
+        "Invest from her OWN earned income — no clubbing, no drama"
       ]
     },
     {
-      "type": "photofeature",
-      "label": "TAX FILES",
-      "image_prompt": "Close-up of two documents laid side by side on a wooden desk in warm morning light — a printed salary slip and a Form 26AS printout — with a red pen circling a highlighted figure on the Form 26AS, no faces, clean and documentary feel",
-      "image_mode": "editorial",
-      "headline": "ITAT ruled in her favour — but she had to prove it.",
-      "highlight": "prove it",
-      "caption": "Salary slips were her evidence. Yours could be too.",
-      "image": "assets/gen_05.png"
-    },
-    {
       "type": "cta",
-      "headline": "TDS mismatch? Tax demand? Talk to us.",
+      "headline": "Tax stress? Talk to us.",
       "highlight": "Talk to us.",
       "body": "GST from ₹600 · ITR from ₹999 · 100% on-time · Vadodara",
       "cta": "WhatsApp +91 98241 41138"
