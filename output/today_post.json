@@ -1,217 +1,62 @@
 {
-  "chosen_title": "Husband taxed on wife's FD, gold & shares income — Clubbing of Income (Section 64)",
+  "chosen_title": "Selling inherited property or ancestral gold — how it's actually taxed — Mojo explainer",
   "lane": "tax",
   "series": "Money Myths",
-  "score": 78,
-  "candidate_scores": [
-    {
-      "id": 0,
-      "score": 63
-    },
-    {
-      "id": 1,
-      "score": 65
-    },
-    {
-      "id": 2,
-      "score": 58
-    },
-    {
-      "id": 3,
-      "score": 81
-    },
-    {
-      "id": 4,
-      "score": 40
-    },
-    {
-      "id": 5,
-      "score": 45
-    },
-    {
-      "id": 6,
-      "score": 71
-    },
-    {
-      "id": 7,
-      "score": 78
-    },
-    {
-      "id": 8,
-      "score": 42
-    },
-    {
-      "id": 9,
-      "score": 68
-    },
-    {
-      "id": 10,
-      "score": 65
-    },
-    {
-      "id": 11,
-      "score": 55
-    },
-    {
-      "id": 12,
-      "score": 58
-    },
-    {
-      "id": 13,
-      "score": 62
-    },
-    {
-      "id": 14,
-      "score": 38
-    },
-    {
-      "id": 15,
-      "score": 48
-    },
-    {
-      "id": 16,
-      "score": 45
-    },
-    {
-      "id": 17,
-      "score": 48
-    },
-    {
-      "id": 18,
-      "score": 42
-    },
-    {
-      "id": 19,
-      "score": 50
-    },
-    {
-      "id": 20,
-      "score": 55
-    },
-    {
-      "id": 21,
-      "score": 52
-    },
-    {
-      "id": 22,
-      "score": 47
-    },
-    {
-      "id": 23,
-      "score": 40
-    },
-    {
-      "id": 24,
-      "score": 62
-    },
-    {
-      "id": 25,
-      "score": 77
-    },
-    {
-      "id": 26,
-      "score": 65
-    },
-    {
-      "id": 27,
-      "score": 68
-    },
-    {
-      "id": 28,
-      "score": 60
-    },
-    {
-      "id": 29,
-      "score": 72
-    },
-    {
-      "id": 30,
-      "score": 75
-    },
-    {
-      "id": 31,
-      "score": 70
-    },
-    {
-      "id": 32,
-      "score": 72
-    },
-    {
-      "id": 33,
-      "score": 60
-    },
-    {
-      "id": 34,
-      "score": 70
-    },
-    {
-      "id": 35,
-      "score": 74
-    },
-    {
-      "id": 36,
-      "score": 66
-    },
-    {
-      "id": 37,
-      "score": 73
-    }
-  ],
-  "selection_note": "Candidate 3 (July 1 changes) scored highest at 81 but requires citing specific figures for six distinct policy changes — accuracy risk for a regulated firm. Candidate 7 (clubbing of income) at 78 is built on airtight, well-established statute (Section 64), is highly shareable, and fits the 'Money Myths' format perfectly. Gap is within editorial margin; accuracy wins.",
-  "caption": "Everyone's heard it: 'Just put the FD in your wife's name — she's in a lower slab.'\n\nHere's what the Income Tax Act quietly disagrees with. Section 64 — the clubbing of income rule — says if YOU funded it, it's YOUR income. Doesn't matter whose name is on the FD, shares, or gold. The interest, dividends, and capital gains get added straight back to your taxable total.\n\nQuick illustration: Transfer ₹5 lakh to your spouse → she earns ₹35,000 FD interest at 7% → Section 64 clubs it back to YOUR income → at the 30% slab that's ₹10,500 in tax anyway. Exactly what you'd have paid keeping the money. Zero saving, full audit risk. (Illustrative numbers.)\n\nWhat actually works: investing from income she genuinely earns herself — salary, freelance, inheritance; NPS under 80CCD(1B) for an extra ₹50,000 deduction; ELSS or PPF in your own name, clean and documented.\n\nWhat to do: Review your investment structure before you file — a wrong move today is a notice tomorrow.\n\nDrop us a WhatsApp — we'll plan it right together.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\n#IncomeTax #TaxSavingTips #ITR #PersonalFinanceIndia #TaxPlanning #CharteredAccountant #Vadodara #ITRFiling #SmallBusiness #GST #TaxMyths #MoneyMyths",
+  "score": 88,
+  "caption": "Your grandmother left you her house. There's no inheritance tax in India — but the capital gains bill when you sell? That's a different story.\n\nUnder Section 49 of the Income Tax Act, the original owner's purchase price and date of acquisition carry forward to you. Every rupee of price rise since your ancestor first bought the property or gold becomes YOUR taxable long-term capital gain.\n\nIllustration: Your grandfather bought a property for ₹8 lakh in 2003. You sell it today for ₹60 lakh. Capital gain ≈ ₹52 lakh. Tax at 12.5% LTCG ≈ ₹6.5 lakh — even though you paid nothing for it. (Actual tax depends on dates, the indexation option available, and your specific situation.)\n\nTwo things that can reduce the bill: (1) Indexation benefit may apply on property or gold acquired before July 23, 2024; (2) Section 54 exemption if you reinvest sale proceeds in another residential property.\n\nWhat to do: Dig out the original purchase deed and have a CA calculate your liability BEFORE the sale deed is registered — restructuring after the fact is rarely possible.\n\nDrop us a message on WhatsApp — we'll walk you through your numbers before you sign anything.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: Sections 45, 49 & 55(2)(b), Income Tax Act 1961.\n\n#IncomeTax #CapitalGains #InheritedProperty #TaxSavingTips #PersonalFinanceIndia #ITR #AncestralProperty #CharteredAccountant #TaxPlanning #Vadodara #GoldTax #LTCGTax",
   "slides": [
     {
       "type": "cover",
       "label": "MONEY MYTH",
-      "image_prompt": "A middle-aged Indian man sitting at a home dining table at dusk, staring with a furrowed brow at an open FD passbook with his wife's name on it, an income tax notice partially visible under his elbow, a glass of chai going cold beside him, warm lamplight, quiet domestic tension",
+      "image_prompt": "An elderly Indian woman gently handing a set of old brass house keys to her adult daughter in a warmly lit traditional Indian home living room, faded property documents spread on a wooden table between them, soft golden afternoon light streaming through a window",
       "image_mode": "editorial",
-      "headline": "Transferred money to your wife to save tax?",
-      "highlight": "save tax"
+      "headline": "Inherited property? Great. Now watch out for the TAX trap.",
+      "highlight": "TAX trap"
     },
     {
       "type": "mythfact",
       "label": "MYTH vs FACT",
-      "myth": "Her name on the FD → her income → her lower tax slab. Smart planning.",
-      "truth": "Section 64 clubs that income straight back to you. If you funded it, you pay tax on it — no matter whose passbook it's in."
-    },
-    {
-      "type": "statement",
-      "label": "REAL TALK",
-      "headline": "Her FD. Her PAN. Your tax bill.",
-      "highlight": "Your tax bill."
-    },
-    {
-      "type": "explainer",
-      "label": "EXPLAINER",
-      "headline": "The ₹10,500 that went nowhere",
-      "highlight": "₹10,500",
-      "body": "Transfer ₹5L to your spouse → she earns ₹35,000 FD interest at 7% → Section 64 adds it to YOUR taxable income → at the 30% slab, tax = ₹10,500. The same you'd have paid anyway. Risk of scrutiny added free of charge. (Illustrative numbers — not a guarantee.)"
+      "myth": "You inherited the house or gold — you didn't earn it, you didn't buy it, so selling it must be tax-free.",
+      "truth": "Inheritance itself is tax-free. But the moment you sell, Long-Term Capital Gains tax applies — and the entire price rise since your ancestor first bought it counts as YOUR gain."
     },
     {
       "type": "feature",
-      "label": "LEGAL BUT GENIUS",
-      "image_prompt": "A confident young Indian woman in business casuals reviewing her own salary slip and a fresh investment form at a sunlit modern desk, pen in hand, documents neatly arranged, expression calm and self-assured — no man in the frame, sense of independent financial agency",
-      "image_mode": "bright",
-      "headline": "Income she EARNS herself? Never clubbed.",
-      "highlight": "EARNS herself",
-      "caption": "Salary, freelance fees, or inherited money — her own income always stays hers.",
-      "body": "Salary, freelance fees, or inherited money — her own income always stays hers."
+      "label": "TAX FILES",
+      "headline": "The clock started the day your ANCESTOR bought it — not the day you inherited.",
+      "highlight": "ANCESTOR",
+      "body": "Under Section 49, the original owner's cost of purchase and date of acquisition transfer directly to you. Decades of price appreciation show up as your capital gain — even though you paid nothing."
+    },
+    {
+      "type": "bignum",
+      "label": "THE NUMBERS",
+      "value": "₹6.5 lakh",
+      "body": "Illustrative LTCG tax if you sell a property your grandfather bought for ₹8L in 2003, now worth ₹60L. (For illustration only — actual tax depends on dates, regime chosen & indexation option.)"
+    },
+    {
+      "type": "feature",
+      "label": "REAL TALK",
+      "image_prompt": "Close-up of a worn, yellowed original property sale deed from the early 1990s resting on a dark wooden desk beside a modern calculator, a magnifying glass placed on the document, warm directional side lighting casting a soft shadow",
+      "image_mode": "concept",
+      "headline": "Your ancestor's old deed is WORTH money today.",
+      "highlight": "WORTH money",
+      "caption": "It proves the original purchase price — which legally reduces your taxable capital gain.",
+      "body": "It proves the original purchase price — which legally reduces your taxable capital gain."
     },
     {
       "type": "list",
       "label": "TAX PLANNING",
-      "title": "What actually saves tax (legally)",
+      "title": "Before you sell inherited property or gold",
       "points": [
-        "NPS: extra ₹50,000 deduction under 80CCD(1B)",
-        "ELSS / PPF in your own name — clean paper trail",
-        "HUF: a separate tax entity if your family qualifies",
-        "Invest from her OWN earned income — no clubbing, no drama"
+        "Dig out the original purchase deed — however old",
+        "Note the year of purchase: sets holding period & indexation",
+        "Bought before 2001? Use Fair Market Value as on April 1, 2001 as cost",
+        "Reinvesting in a new house? Check Section 54 exemption"
       ]
     },
     {
       "type": "cta",
-      "headline": "Tax stress? Talk to us.",
-      "highlight": "Talk to us.",
+      "headline": "Inherited property or gold to sell? Talk to us first.",
+      "highlight": "Talk to us first",
       "body": "GST from ₹600 · ITR from ₹999 · 100% on-time · Vadodara",
       "cta": "WhatsApp +91 98241 41138"
     }
