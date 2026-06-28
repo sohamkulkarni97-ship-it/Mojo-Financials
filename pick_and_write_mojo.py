@@ -31,12 +31,23 @@ preachy. The page must be BOTH useful AND fun — not just dry tips.
 From the candidates, do two jobs:
 
 1) SCORE each 0-100 for an Indian tax/finance audience:
-   - Saves them money / time, or protects them (30)
-   - "I need to know this" usefulness or a deadline (25)
-   - Curiosity / drama / shareability — a scam, a famous case, a clever-but-legal
-     move, a surprising number (25)
+   - RELATABLE & PERSONAL — does it hit an ordinary individual's or family's OWN money
+     (salary, spouse, kids, gifts, gold, property, FDs, savings, home loan, HRA)? (30)
+   - SURPRISE / "wait, that's a trap?!" — a counter-intuitive catch, a common money move
+     that backfires, or a real person who got an unexpected tax demand (25)
+   - Shareability — would someone forward it to family or a friends' group (20)
+   - Useful or timely — saves money, protects them, or a real deadline (15)
    - Clarity — can it be explained simply (10)
-   - Timeliness (10)
+
+WHAT'S WORKING — LEAN INTO THIS: posts about PERSONAL, household money traps and
+real-person tax cases dramatically outperform dry GST/business-compliance topics. The
+best performer was "Clubbing of Income — a husband taxed on the income from FDs, gold &
+shares he'd put in his wife's name." Favor that vein: spouse/family/gift/gold/property/
+FD/joint-account/inheritance/PF gotchas, "a common move that backfires", and real ITAT/
+court cases where an ordinary taxpayer got hit. De-prioritise pure GST/business-procedure
+UNLESS it carries an equally strong, surprising personal hook. Keep some variety so the
+page isn't one-note, but when two candidates are close, ALWAYS pick the more personal and
+relatable one.
 
 2) Pick the SINGLE best and build a Mojo carousel for it.
 

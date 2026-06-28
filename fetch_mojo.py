@@ -68,6 +68,16 @@ EVERGREEN = [
     ("Common ITR mistakes that trigger a notice", "Income not matching AIS/26AS, unreported savings interest, picking the wrong ITR form."),
     ("Gifts and tax under Section 56", "Gifts above ₹50,000 a year are taxable — but gifts from specified relatives and on marriage are exempt."),
     ("NPS — the extra ₹50,000 deduction under 80CCD(1B)", "Over and above the ₹1.5 lakh 80C limit."),
+    # --- Relatable PERSONAL money "gotchas" (the format that performs best) ---
+    ("Clubbing of income — why putting investments in your spouse's name doesn't save tax", "Under Section 64, income from assets you gift to your spouse or minor child is added back to YOUR income and taxed in your hands — a common 'save tax in the family' move that quietly backfires."),
+    ("Your minor child's income gets clubbed too", "Interest and earnings on investments held in a minor's name are added to the higher-earning parent's income under Section 64(1A), with only a small ₹1,500-per-child exemption."),
+    ("Joint home loan — who really gets the tax deduction", "Both co-borrowers can claim interest (up to ₹2L each) and principal (80C) — but only on their share of ownership AND the EMI they actually pay; adding a non-paying spouse to the loan doesn't multiply the benefit."),
+    ("How much gold can you keep at home without trouble", "A CBDT instruction sets quantities (e.g. ~500g for a married woman) that won't be seized in a search — but that's about seizure, NOT a tax exemption; unexplained gold can still be taxed."),
+    ("The ₹2 lakh cash limit most people don't know — Section 269ST", "Accepting ₹2,00,000 or more in cash in a single transaction, day or event can attract a penalty equal to the amount received — it quietly hits weddings, property deals and big cash purchases."),
+    ("Tax on your savings & FD interest — the AIS mismatch trap", "Bank interest is pre-filled in your AIS; assuming 'TDS was deducted so I'm done' and leaving it out is a top reason ordinary taxpayers get a notice. 80TTA/80TTB give a small deduction."),
+    ("Selling inherited property or ancestral gold — how it's actually taxed", "Inheritance itself is tax-free, but when you SELL, capital gains apply using the original owner's cost and holding period — many heirs are caught off guard by the bill."),
+    ("PF withdrawal before 5 years can be taxable", "Withdraw your EPF before 5 years of continuous service and the employer's contribution, interest and earlier 80C benefit can all become taxable, often with TDS."),
+    ("Wedding gifts and family gifts — what's actually tax-free", "Gifts received on your marriage are fully exempt and gifts from specified relatives (parents, siblings, spouse) are exempt — but a ₹60,000 gift from a friend is taxable as income."),
 ]
 
 
