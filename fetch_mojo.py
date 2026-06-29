@@ -78,6 +78,15 @@ EVERGREEN = [
     ("Selling inherited property or ancestral gold — how it's actually taxed", "Inheritance itself is tax-free, but when you SELL, capital gains apply using the original owner's cost and holding period — many heirs are caught off guard by the bill."),
     ("PF withdrawal before 5 years can be taxable", "Withdraw your EPF before 5 years of continuous service and the employer's contribution, interest and earlier 80C benefit can all become taxable, often with TDS."),
     ("Wedding gifts and family gifts — what's actually tax-free", "Gifts received on your marriage are fully exempt and gifts from specified relatives (parents, siblings, spouse) are exempt — but a ₹60,000 gift from a friend is taxable as income."),
+    ("Gifting cash to your wife to invest — the gift is free, the income isn't", "A gift to your spouse isn't taxed in her hands, BUT any income she earns from investing it is clubbed back to you under Section 64 — so the tax-saving plan quietly fails."),
+    ("Paying rent to your own parents for HRA — legal, if you do it right", "You CAN claim HRA on rent paid to parents who own the home — but it must be real (actual transfer, they declare the rent as income); fake arrangements get caught via PAN and AIS."),
+    ("Buying a flat over ₹50 lakh? The BUYER must deduct 1% TDS", "Section 194-IA makes the buyer responsible for deducting and depositing 1% TDS on property above ₹50L — miss it and the penalty and interest fall on the buyer, not the seller."),
+    ("Buying property from an NRI — the TDS trap that costs lakhs", "Buying from a resident is 1% TDS; buying from an NRI means deducting much higher TDS (20%+ on gains/value) — the buyer is liable, and getting it wrong is an expensive mistake."),
+    ("Paying rent above ₹50,000 a month? You must deduct TDS", "Section 194-IB requires a tenant paying over ₹50,000/month to deduct 5% TDS once a year — a rule most individual tenants have never heard of."),
+    ("Switching mutual funds is a SALE — and it's taxable", "Moving money between schemes (even within the same fund house, or regular-to-direct) counts as a redemption, triggering capital gains tax — 'switching' is not tax-free."),
+    ("Dividends used to be tax-free — not anymore", "Since FY 2020-21 dividends are fully taxable in your hands at your slab rate, and companies deduct 10% TDS above ₹5,000 a year — a surprise for many long-term investors."),
+    ("Made money on crypto? 30% flat. Lost money? You still can't offset it", "Virtual digital assets are taxed at a flat 30% with 1% TDS on transfers, and losses can't be set off against other income or even other crypto gains — one of the harshest regimes in the Act."),
+    ("Won a game show, lottery or online game? You keep about 70%", "Winnings are taxed at a flat 30% (plus cess) with TDS deducted upfront, and NO deductions or basic-exemption benefit apply — Section 115BB / 194B."),
 ]
 
 
