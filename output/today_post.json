@@ -1,62 +1,63 @@
 {
-  "chosen_title": "Selling inherited property or ancestral gold — how it's actually taxed — Mojo explainer",
+  "chosen_title": "Gifting cash to your wife to invest — the gift is free, the income isn't",
   "lane": "tax",
   "series": "Money Myths",
-  "score": 88,
-  "caption": "Your grandmother left you her house. There's no inheritance tax in India — but the capital gains bill when you sell? That's a different story.\n\nUnder Section 49 of the Income Tax Act, the original owner's purchase price and date of acquisition carry forward to you. Every rupee of price rise since your ancestor first bought the property or gold becomes YOUR taxable long-term capital gain.\n\nIllustration: Your grandfather bought a property for ₹8 lakh in 2003. You sell it today for ₹60 lakh. Capital gain ≈ ₹52 lakh. Tax at 12.5% LTCG ≈ ₹6.5 lakh — even though you paid nothing for it. (Actual tax depends on dates, the indexation option available, and your specific situation.)\n\nTwo things that can reduce the bill: (1) Indexation benefit may apply on property or gold acquired before July 23, 2024; (2) Section 54 exemption if you reinvest sale proceeds in another residential property.\n\nWhat to do: Dig out the original purchase deed and have a CA calculate your liability BEFORE the sale deed is registered — restructuring after the fact is rarely possible.\n\nDrop us a message on WhatsApp — we'll walk you through your numbers before you sign anything.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: Sections 45, 49 & 55(2)(b), Income Tax Act 1961.\n\n#IncomeTax #CapitalGains #InheritedProperty #TaxSavingTips #PersonalFinanceIndia #ITR #AncestralProperty #CharteredAccountant #TaxPlanning #Vadodara #GoldTax #LTCGTax",
+  "score": 91,
+  "caption": "You transfer ₹5 lakh to your wife's account. She opens an FD. The interest arrives — taxed in YOUR name. 😶\n\nThis is Section 64 of the Income Tax Act: the 'clubbing of income' rule. When you gift money or assets to your spouse, any income she earns by investing that gift is added straight back to YOUR taxable income, at YOUR slab rate. The gift travels tax-free. The profit does not.\n\n*Illustration:* Husband in the 30% slab gifts ₹5 lakh. Wife parks it in an FD at 7%. She earns ₹35,000 interest. Clubbed back to husband — he pays ₹10,500 in tax he thought he'd escaped. Tax saved: ₹0. (Illustration only — actual tax depends on your full income.)\n\nThere ARE legal ways to split income in a family: gifts from her own parents or relatives, a genuine salary she draws from your business, adult children (18+) investing their own earnings, or an HUF. Each has its own rules and limits — a short conversation can tell you which fits.\n\nWhat to do: Check every FD, mutual fund, or share account held in your spouse's name. If the seed money came from you, that income may already be clubbing into your ITR — and the IT department's AIS now flags mismatches automatically.\n\nDrop us a WhatsApp — we'll untangle it in minutes.\n\nNote: general information, not professional advice — talk to us for your specific case.\nSource: Section 64, Income Tax Act, 1961.\n\n#IncomeTax #TaxSavingTips #PersonalFinanceIndia #ITR #FamilyFinance #TaxPlanning #CharteredAccountant #Vadodara #Section64 #TaxTrap #IndianTaxpayer #MoneyMyth",
   "slides": [
     {
-      "type": "cover",
+      "type": "photocover",
       "label": "MONEY MYTH",
-      "image_prompt": "An elderly Indian woman gently handing a set of old brass house keys to her adult daughter in a warmly lit traditional Indian home living room, faded property documents spread on a wooden table between them, soft golden afternoon light streaming through a window",
+      "image_prompt": "A middle-aged Indian husband handing a thick envelope of cash to his wife at a sunlit kitchen table, an FD receipt and a smartphone showing a bank balance lying between them, warm late-afternoon domestic glow, no text or numbers visible in the scene",
       "image_mode": "editorial",
-      "headline": "Inherited property? Great. Now watch out for the TAX trap.",
-      "highlight": "TAX trap"
+      "headline": "You gifted ₹5L to your wife. The tax bill still lands on YOU.",
+      "highlight": "still lands on YOU",
+      "image": "assets/gen_00.png"
     },
     {
       "type": "mythfact",
       "label": "MYTH vs FACT",
-      "myth": "You inherited the house or gold — you didn't earn it, you didn't buy it, so selling it must be tax-free.",
-      "truth": "Inheritance itself is tax-free. But the moment you sell, Long-Term Capital Gains tax applies — and the entire price rise since your ancestor first bought it counts as YOUR gain."
+      "myth": "I gifted money to my wife — the income she earns from it is hers, so I pay less tax.",
+      "truth": "Section 64 'clubs' any income she earns from your gifted money straight back into YOUR taxable income, at YOUR slab rate. Same tax. Zero saving."
     },
     {
-      "type": "feature",
-      "label": "TAX FILES",
-      "headline": "The clock started the day your ANCESTOR bought it — not the day you inherited.",
-      "highlight": "ANCESTOR",
-      "body": "Under Section 49, the original owner's cost of purchase and date of acquisition transfer directly to you. Decades of price appreciation show up as your capital gain — even though you paid nothing."
+      "type": "statement",
+      "label": "REAL TALK",
+      "headline": "The plan looked smart. Section 64 quietly waited.",
+      "highlight": "quietly waited"
     },
     {
       "type": "bignum",
       "label": "THE NUMBERS",
-      "value": "₹6.5 lakh",
-      "body": "Illustrative LTCG tax if you sell a property your grandfather bought for ₹8L in 2003, now worth ₹60L. (For illustration only — actual tax depends on dates, regime chosen & indexation option.)"
+      "value": "₹0",
+      "body": "Tax saved when a 30%-slab husband gifts ₹5L → wife's FD earns ₹35,000 → clubbed back to husband → ₹10,500 tax paid anyway. The saving was always an illusion. (Illustration only.)"
     },
     {
-      "type": "feature",
-      "label": "REAL TALK",
-      "image_prompt": "Close-up of a worn, yellowed original property sale deed from the early 1990s resting on a dark wooden desk beside a modern calculator, a magnifying glass placed on the document, warm directional side lighting casting a soft shadow",
+      "type": "photofeature",
+      "label": "TAX PLANNING",
+      "image_prompt": "A bright orange boomerang frozen mid-arc above a neat stack of Indian rupee notes on a dark wooden surface, dramatic overhead studio lighting, vivid colour contrast, clean minimalist composition, no text or numerals visible",
       "image_mode": "concept",
-      "headline": "Your ancestor's old deed is WORTH money today.",
-      "highlight": "WORTH money",
-      "caption": "It proves the original purchase price — which legally reduces your taxable capital gain.",
-      "body": "It proves the original purchase price — which legally reduces your taxable capital gain."
+      "headline": "The income always finds its way back.",
+      "highlight": "always finds its way back",
+      "caption": "Section 64 — the clubbing rule — makes absolutely sure of it.",
+      "image": "assets/gen_04.png"
     },
     {
       "type": "list",
-      "label": "TAX PLANNING",
-      "title": "Before you sell inherited property or gold",
+      "label": "LEGAL BUT GENIUS",
+      "title": "What actually works (legally)",
       "points": [
-        "Dig out the original purchase deed — however old",
-        "Note the year of purchase: sets holding period & indexation",
-        "Bought before 2001? Use Fair Market Value as on April 1, 2001 as cost",
-        "Reinvesting in a new house? Check Section 54 exemption"
+        "Gift to your adult child (18+) — income taxed in their hands, not yours",
+        "Spouse draws a genuine salary from your business — documented & reasonable",
+        "Wife's own inherited money or gifts from her relatives — no clubbing applies",
+        "HUF — creates a separate legal taxpayer entity for family assets",
+        "Her own PPF / NPS contributions from her own earnings — clean split"
       ]
     },
     {
       "type": "cta",
-      "headline": "Inherited property or gold to sell? Talk to us first.",
-      "highlight": "Talk to us first",
+      "headline": "Tax stress? Talk to us.",
+      "highlight": "Talk to us",
       "body": "GST from ₹600 · ITR from ₹999 · 100% on-time · Vadodara",
       "cta": "WhatsApp +91 98241 41138"
     }
