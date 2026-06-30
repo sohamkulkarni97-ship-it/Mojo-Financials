@@ -40,14 +40,23 @@ From the candidates, do two jobs:
    - Clarity — can it be explained simply (10)
 
 WHAT'S WORKING — LEAN INTO THIS: posts about PERSONAL, household money traps and
-real-person tax cases dramatically outperform dry GST/business-compliance topics. The
-best performer was "Clubbing of Income — a husband taxed on the income from FDs, gold &
-shares he'd put in his wife's name." Favor that vein: spouse/family/gift/gold/property/
-FD/joint-account/inheritance/PF gotchas, "a common move that backfires", and real ITAT/
-court cases where an ordinary taxpayer got hit. De-prioritise pure GST/business-procedure
-UNLESS it carries an equally strong, surprising personal hook. Keep some variety so the
-page isn't one-note, but when two candidates are close, ALWAYS pick the more personal and
-relatable one.
+real-person tax cases dramatically outperform dry GST/business-compliance topics. Favor
+that VEIN: spouse/family/gift/gold/property/FD/joint-account/inheritance/PF gotchas, "a
+common move that backfires", and real ITAT/court cases where an ordinary taxpayer got
+hit. De-prioritise pure GST/business-procedure UNLESS it carries an equally strong,
+surprising personal hook. Keep some variety so the page isn't one-note, but when two
+candidates are close, ALWAYS pick the more personal and relatable one.
+
+NO REPEATS — THIS IS A HARD RULE: you will be given a list of CONCEPTS ALREADY POSTED
+recently. The "personal money trap" vein above is a *category* of topic, not a single
+topic — it contains dozens of distinct mechanisms (spousal gifting/clubbing, minor's
+income clubbing, joint home loan, gold at home, cash limits, FD/AIS mismatch, inherited
+property, PF withdrawal, HRA fake receipts, wedding gifts, ESOP, capital gains, advance
+tax, presumptive tax, and more). NEVER pick a concept that is the same as, or a close
+variant of, anything in the already-posted list — even if it scores well and even if
+it's in the favored vein. If the best-scoring fresh candidate is GST/compliance because
+every strong personal-trap angle was posted recently, that is fine — pick it. Freshness
+beats a marginal score bump on a repeated theme.
 
 2) Pick the SINGLE best and build a Mojo carousel for it.
 
@@ -65,8 +74,18 @@ CAROUSEL RULES (BOLD & VARIED — must feel fresh every day, NEVER a wall of tex
   feature are dark; bignum, table, mythfact, list are light). Put at least one BIG-impact
   visual beat in the middle — a huge number (bignum), a bold claim (statement), or a
   myth-vs-fact (mythfact).
-- KEEP TEXT SHORT. Punchy headlines; bodies are 1-3 TIGHT sentences max. The caption
-  carries the depth — slides are for the hook, the number, and the one key idea.
+- THE CAROUSEL IS A BILLBOARD, NOT AN ARTICLE. Nobody stops to read paragraphs on a
+  slide — they read it in the caption AFTER the slides hook them. Every slide is a
+  headline + maybe ONE short supporting line, never more. Hard caps, no exceptions:
+    * Any "body" field: ONE short sentence, under 14 words. Not "1-3 sentences" — ONE.
+    * "list" points: SHORT PHRASES (4-8 words), not full sentences. "Wrong place-of-
+      supply on invoices" not "Many businesses make the mistake of entering the wrong
+      place of supply on their invoices, which can trigger..."
+    * "mythfact" myth/truth: ONE short sentence each, under 16 words.
+    * The ONE "explainer" slide you're allowed (max once per deck) can run 2 sentences
+      — that is the single exception, everything else is one-liners.
+  If you find yourself writing more than that, you're explaining — stop, cut it, and
+  let the caption do that job. The caption carries 100% of the depth.
 - LEAD WITH THE READER'S MONEY, not the rule. Bad: "Section 80C allows ₹1.5L."
   Good: "₹46,800 most salaried people hand the govt for nothing."
 - Include ONE concrete worked example with round, clearly-illustrative numbers; mark it
@@ -86,14 +105,14 @@ IMAGES (2-3 per post — one image made the page too text-heavy):
 
 SLIDE SCHEMA — every slide needs a "type":
   photocover  : type,label,image_prompt,image_mode,headline,highlight    (cover, full-bleed photo)
-  photofeature: type,label,image_prompt,image_mode,headline,highlight,caption  (inner photo; caption = 1 short line)
+  photofeature: type,label,image_prompt,image_mode,headline,highlight,caption  (inner photo; caption <= 8 words)
   statement   : type,label,headline,highlight                 (ONE bold claim on a dark slide — a punchy break)
-  mythfact    : type,label,myth,truth                         (myth = the wrong belief; truth = the fix; each 1-2 sentences)
-  bignum      : type,label,value (e.g. "₹46,800"),body        (body = 1-2 sentences)
+  mythfact    : type,label,myth,truth                         (myth = the wrong belief; truth = the fix; ONE sentence each, <16 words)
+  bignum      : type,label,value (e.g. "₹46,800"),body        (body = ONE sentence, <14 words)
   table       : type,label,title,cols (exactly 2 of {{head,value}}),highlight
-  list        : type,label,title,points (3-5 SHORT strings)
-  feature     : type,label,headline,highlight,body            (dark Tax Files / Busted beat; body = 1-2 sentences)
-  explainer   : type,label,headline,highlight,body            (use AT MOST ONCE; body = 2-3 sentences)
+  list        : type,label,title,points (3-5 SHORT PHRASES, 4-8 words each — not sentences)
+  feature     : type,label,headline,highlight,body            (dark Tax Files / Busted beat; body = ONE sentence, <14 words)
+  explainer   : type,label,headline,highlight,body            (use AT MOST ONCE; body = 2 sentences max — the only slide allowed this much)
   cta         : type,headline,highlight,body,cta
 LABELS (uppercase): DUE THIS WEEK, MONEY MYTH, EXPLAINER, THE NUMBERS, TAX FILES, BUSTED,
 LEGAL BUT GENIUS, TAX PLANNING, GST, ITR, FOR BUSINESS, MYTH vs FACT, REAL TALK.
@@ -135,6 +154,15 @@ def _recent_lanes(n=4):
     return []
 
 
+def _recent_titles(n=12):
+    """Actual recent post titles/concepts — what _recent_lanes can't see, and the
+    real fix for thematic repeats (e.g. two posts both about gifting to a spouse)."""
+    if os.path.exists(POSTED_LOG):
+        with open(POSTED_LOG, encoding="utf-8") as fh:
+            return [e.get("title") for e in json.load(fh)[-n:] if e.get("title")]
+    return []
+
+
 def _call_model(system, user):
     client = anthropic.Anthropic()
     with client.messages.stream(model=MODEL, max_tokens=22000,
@@ -156,11 +184,16 @@ def _extract_json(text):
     return json.loads(text[a:b + 1])
 
 
-def generate_post(candidates, avoid_lanes=None):
+def generate_post(candidates, avoid_lanes=None, avoid_titles=None):
     lines = [f"[{i}] ({c['lane']}) {c['title']} — {c['source']}\n    {c['summary'][:240]}"
              for i, c in enumerate(candidates)]
+    avoid_block = (
+        "CONCEPTS ALREADY POSTED RECENTLY (do NOT repeat these or close variants):\n  - "
+        + "\n  - ".join(avoid_titles) if avoid_titles else
+        "CONCEPTS ALREADY POSTED RECENTLY: (none yet)"
+    )
     user = (f"Recently posted lanes (rotate away if quality is close): {avoid_lanes or []}\n\n"
-            "CANDIDATES:\n" + "\n".join(lines))
+            f"{avoid_block}\n\nCANDIDATES:\n" + "\n".join(lines))
     post = _extract_json(_call_model(SYSTEM, user))
     post["handle"] = HANDLE
     return post
@@ -169,7 +202,7 @@ def generate_post(candidates, avoid_lanes=None):
 if __name__ == "__main__":
     cands = fetch_mojo.fetch_candidates()
     print(f"Ranking {len(cands)} candidates with {MODEL}...")
-    post = generate_post(cands, _recent_lanes())
+    post = generate_post(cands, _recent_lanes(), _recent_titles())
     os.makedirs(os.path.dirname(OUT_POST), exist_ok=True)
     with open(OUT_POST, "w", encoding="utf-8") as fh:
         json.dump(post, fh, indent=2, ensure_ascii=False)

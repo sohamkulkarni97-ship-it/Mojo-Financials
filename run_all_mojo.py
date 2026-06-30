@@ -51,7 +51,7 @@ def main():
     if not cands:
         raise SystemExit("No candidates.")
     print(f"Fetched {len(cands)} candidates.")
-    post = pw.generate_post(cands, pw._recent_lanes())
+    post = pw.generate_post(cands, pw._recent_lanes(), pw._recent_titles())
     print(f"Chosen [{post.get('series')}] (score {post.get('score')}): {post.get('chosen_title')}")
     _add_photos(post)
     out = os.path.join(HERE, "output", "today_post.json")
