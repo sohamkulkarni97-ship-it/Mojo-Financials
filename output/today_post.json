@@ -1,380 +1,63 @@
 {
-  "chosen_title": "8th Pay Commission Arrears — The Section 89(1) Tax Fix Most Employees Miss",
-  "lane": "tax",
-  "series": "Legal but Genius",
-  "score": 85,
-  "candidate_scores": [
-    {
-      "id": 0,
-      "score": 27,
-      "note": "Procedural ITAT order — zero personal hook, narrow audience"
-    },
-    {
-      "id": 1,
-      "score": 35,
-      "note": "GST Section 73/74 procedural — moderate business utility, no personal trap"
-    },
-    {
-      "id": 2,
-      "score": 25,
-      "note": "CESTAT service-tax — old era, niche, no everyday relatability"
-    },
-    {
-      "id": 3,
-      "score": 22,
-      "note": "Customs tariff revision — commodity/trade, irrelevant to personal audience"
-    },
-    {
-      "id": 4,
-      "score": 18,
-      "note": "IFSCA IBU compliance — very niche IFSC topic, tiny audience"
-    },
-    {
-      "id": 5,
-      "score": 21,
-      "note": "SEBI debenture trustees — institutional, no personal money hook"
-    },
-    {
-      "id": 6,
-      "score": 15,
-      "note": "AIDC ammonium nitrate — industrial, irrelevant to page audience"
-    },
-    {
-      "id": 7,
-      "score": 15,
-      "note": "Nil duty petrochemicals — industrial, irrelevant"
-    },
-    {
-      "id": 8,
-      "score": 56,
-      "note": "New Aadhaar app July 1 — timely and personal but shallow tax/finance angle"
-    },
-    {
-      "id": 9,
-      "score": 59,
-      "note": "Small savings rates unchanged — useful and personal, but ninth straight unchanged quarter kills the surprise"
-    },
-    {
-      "id": 10,
-      "score": 49,
-      "note": "Railway penalty hike — shareable but entirely outside tax/finance lane"
-    },
-    {
-      "id": 11,
-      "score": 67,
-      "note": "₹2 crore retirement — relatable personal finance, moderate surprise, not CA-specific enough"
-    },
-    {
-      "id": 12,
-      "score": 65,
-      "note": "Builder refund 30-year win — great real-person story but consumer-rights, not tax/CA core"
-    },
-    {
-      "id": 13,
-      "score": 85,
-      "note": "WINNER — 8th Pay Commission arrears + Section 89(1): timely, highly personal to crores of salaried Indians, strong 'wait-that's-a-trap' moment, Section 89 not yet posted, Form 10E deadline urgency"
-    },
-    {
-      "id": 14,
-      "score": 35,
-      "note": "Gold rate today — transactional, no tax or planning insight"
-    },
-    {
-      "id": 15,
-      "score": 75,
-      "note": "Health insurance pre-existing conditions — very relatable and shareable, but outside CA firm's core service scope"
-    },
-    {
-      "id": 16,
-      "score": 74,
-      "note": "Debt spiral LinkedIn — emotionally resonant, very shareable, but not tax-actionable for a CA firm"
-    },
-    {
-      "id": 17,
-      "score": 56,
-      "note": "Small savings rates (duplicate of #9)"
-    },
-    {
-      "id": 18,
-      "score": 44,
-      "note": "NPS Swasthya top-up — useful but niche pension product announcement"
-    },
-    {
-      "id": 19,
-      "score": 39,
-      "note": "Alphabet/SpaceX Nasdaq — overseas investing niche, low India-tax hook"
-    },
-    {
-      "id": 20,
-      "score": 66,
-      "note": "Online will legally valid — personal and timely, overlaps legal drafting service, but no tax trap angle"
-    },
-    {
-      "id": 21,
-      "score": 32,
-      "note": "Hybrid SIFs — niche investment product, low shareability with target audience"
-    },
-    {
-      "id": 22,
-      "score": 47,
-      "note": "GST appellate tribunal deadline — timely but narrow business audience and procedural"
-    },
-    {
-      "id": 23,
-      "score": 41,
-      "note": "Multi-asset allocation funds — investment comparison, low surprise, moderate utility"
-    },
-    {
-      "id": 24,
-      "score": 20,
-      "note": "India-Greece trade — macro policy, no personal finance hook"
-    },
-    {
-      "id": 25,
-      "score": 18,
-      "note": "Overcapacity narrative — macro/policy commentary, not actionable"
-    },
-    {
-      "id": 26,
-      "score": 12,
-      "note": "Netradyne-Geosecure — tech B2B partnership, irrelevant"
-    },
-    {
-      "id": 27,
-      "score": 14,
-      "note": "Maersk container demand — global shipping macro"
-    },
-    {
-      "id": 28,
-      "score": 16,
-      "note": "India tech ecosystem — macro aspirational, no personal hook"
-    },
-    {
-      "id": 29,
-      "score": 15,
-      "note": "SME logistics — niche B2B, low personal relevance"
-    },
-    {
-      "id": 30,
-      "score": 12,
-      "note": "Extreme heat food supply — global macro, no tax angle"
-    },
-    {
-      "id": 31,
-      "score": 14,
-      "note": "Stainless steel industry — industrial, irrelevant"
-    },
-    {
-      "id": 32,
-      "score": 0,
-      "note": "ALREADY POSTED — Vodafone retro tax case"
-    },
-    {
-      "id": 33,
-      "score": 0,
-      "note": "ALREADY POSTED — Old vs New tax regime"
-    },
-    {
-      "id": 34,
-      "score": 0,
-      "note": "ALREADY POSTED — ESOP taxation"
-    },
-    {
-      "id": 35,
-      "score": 0,
-      "note": "ALREADY POSTED — Pvt Ltd vs LLP vs Proprietorship"
-    },
-    {
-      "id": 36,
-      "score": 0,
-      "note": "ALREADY POSTED — McDowell planning vs avoidance"
-    },
-    {
-      "id": 37,
-      "score": 0,
-      "note": "ALREADY POSTED — Section 80C"
-    },
-    {
-      "id": 38,
-      "score": 0,
-      "note": "ALREADY POSTED — HRA fake receipts trap"
-    },
-    {
-      "id": 39,
-      "score": 0,
-      "note": "ALREADY POSTED — Presumptive taxation 44AD/44ADA"
-    },
-    {
-      "id": 40,
-      "score": 0,
-      "note": "ALREADY POSTED — Advance tax 234B/234C"
-    },
-    {
-      "id": 41,
-      "score": 0,
-      "note": "ALREADY POSTED — How big companies cut their tax bill"
-    },
-    {
-      "id": 42,
-      "score": 0,
-      "note": "ALREADY POSTED — STCG vs LTCG"
-    },
-    {
-      "id": 43,
-      "score": 0,
-      "note": "ALREADY POSTED — Common ITR mistakes"
-    },
-    {
-      "id": 44,
-      "score": 0,
-      "note": "ALREADY POSTED — Gifts and Section 56"
-    },
-    {
-      "id": 45,
-      "score": 0,
-      "note": "ALREADY POSTED — NPS 80CCD(1B)"
-    },
-    {
-      "id": 46,
-      "score": 0,
-      "note": "ALREADY POSTED — Clubbing of income spouse"
-    },
-    {
-      "id": 47,
-      "score": 0,
-      "note": "ALREADY POSTED — Minor child income clubbing"
-    },
-    {
-      "id": 48,
-      "score": 0,
-      "note": "ALREADY POSTED — Joint home loan deduction"
-    },
-    {
-      "id": 49,
-      "score": 0,
-      "note": "ALREADY POSTED — Gold at home limit"
-    },
-    {
-      "id": 50,
-      "score": 0,
-      "note": "ALREADY POSTED — ₹2 lakh cash limit Section 269ST"
-    },
-    {
-      "id": 51,
-      "score": 0,
-      "note": "ALREADY POSTED — FD/AIS mismatch trap"
-    },
-    {
-      "id": 52,
-      "score": 0,
-      "note": "ALREADY POSTED — Selling inherited property"
-    },
-    {
-      "id": 53,
-      "score": 0,
-      "note": "ALREADY POSTED — PF withdrawal before 5 years"
-    },
-    {
-      "id": 54,
-      "score": 0,
-      "note": "ALREADY POSTED — Wedding gifts tax-free"
-    },
-    {
-      "id": 55,
-      "score": 0,
-      "note": "ALREADY POSTED — Rent to parents for HRA"
-    },
-    {
-      "id": 56,
-      "score": 0,
-      "note": "ALREADY POSTED — Buyer TDS on property above ₹50L"
-    },
-    {
-      "id": 57,
-      "score": 0,
-      "note": "ALREADY POSTED — Buying from NRI TDS trap"
-    },
-    {
-      "id": 58,
-      "score": 0,
-      "note": "ALREADY POSTED — Rent above ₹50k/month TDS"
-    },
-    {
-      "id": 59,
-      "score": 0,
-      "note": "ALREADY POSTED — Switching mutual funds is a taxable sale"
-    },
-    {
-      "id": 60,
-      "score": 0,
-      "note": "ALREADY POSTED — Dividends now taxable"
-    },
-    {
-      "id": 61,
-      "score": 0,
-      "note": "ALREADY POSTED — Crypto 30% flat tax"
-    },
-    {
-      "id": 62,
-      "score": 0,
-      "note": "ALREADY POSTED — Game show/lottery winnings"
-    }
-  ],
-  "caption": "8th Pay Commission arrears are on their way — but most employees don't know about the tax trap hiding inside.\n\nWhen you receive salary arrears in a lump sum, the Income Tax Act treats ALL of it as income in the year you receive it. Even if those arrears cover 3 years of past service, every rupee lands in THIS year's return — potentially jumping you from the 5% slab straight to 20% or 30% overnight.\n\nSection 89(1) is the fix. It recalculates your tax as if the arrears were spread across the years they actually belong to — so you pay only the genuine extra, not an inflated bracket bill. Illustration: on ₹5 lakh in arrears, many employees can save ₹30,000–₹60,000 using this relief (exact saving depends on your income level and the years involved — not a guarantee).\n\nCritical: You MUST file Form 10E on the income tax portal BEFORE you submit your ITR. ITAT benches have consistently held that if Form 10E is not filed first, the relief is permanently disallowed — no retrospective fix exists.\n\nWhat to do → Use the arrears-relief calculator on incometax.gov.in → File Form 10E → THEN file your ITR.\n\nNeed help getting the numbers right? WhatsApp us — link in bio.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: Section 89(1), Income Tax Act 1961; Rule 21AA; CBDT Form 10E guidance on incometax.gov.in\n\n#IncomeTax #ITR #8thPayCommission #TaxSavingTips #PersonalFinanceIndia #GovernmentEmployees #Section89 #TaxPlanning #CharteredAccountant #Vadodara #Form10E #SalariedTaxpayers",
+  "chosen_title": "The ₹2 lakh cash limit most people don't know — Section 269ST",
+  "lane": "evergreen",
+  "series": "Money Myths",
+  "score": 86,
+  "caption": "Most people think cash is 'private money' — Section 269ST quietly disagrees.\n\nUnder Section 269ST of the Income Tax Act, receiving ₹2 lakh or more in cash from ONE person — in a single day, a single transaction, or for a single event — can attract a penalty equal to 100% of the amount received. It falls on YOU, the receiver. Not the person who handed it over.\n\nIllustration: wedding guests hand you ₹3 lakh cash collectively from one family. Even if it's a fully legal gift, you could face a ₹3 lakh penalty notice. (Illustrative only — actual liability depends on facts, amounts per person, and applicable exemptions.)\n\nThis trap quietly hits people at weddings, property token payments, contractor or doctor fees, and informal 'family loans'. The giver walks away; the receiver holds the notice.\n\nWhat to do: keep any single cash receipt under ₹2 lakh per person per day — for anything bigger, insist on a bank transfer. It's instant, free, and leaves zero penalty risk.\n\nAlready made a large cash transaction? Chat with us — we'll tell you exactly where you stand.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: Section 269ST, Income Tax Act, 1961\n\n#IncomeTax #CashLimit #Section269ST #TaxSavingTips #PersonalFinanceIndia #ITR #TaxPlanning #CharteredAccountant #Vadodara #SmallBusiness #WeddingFinance #TaxAlert",
   "slides": [
     {
       "type": "photocover",
-      "label": "LEGAL BUT GENIUS",
-      "image_prompt": "A middle-aged Indian man in a crisp white shirt sits at a kitchen table at dusk, holding a printed salary payslip with a look of quiet surprise, warm amber lamp light, a cup of chai beside him, no text or numbers visible anywhere in the frame",
-      "image_mode": "editorial",
-      "headline": "8th Pay Commission arrears — all taxed in ONE year. There's a fix.",
-      "highlight": "ONE year",
-      "image": "assets/gen_00.png"
-    },
-    {
-      "type": "bignum",
-      "label": "THE NUMBERS",
-      "value": "₹3–8 lakh",
-      "body": "Estimated arrears for Level 1–5 employees — all taxed as this single year's income."
-    },
-    {
-      "type": "statement",
       "label": "REAL TALK",
-      "headline": "Lump-sum arrears can push you into a HIGHER tax slab overnight.",
-      "highlight": "HIGHER tax slab"
+      "image_prompt": "Close-up of a thick bundle of Indian rupee notes changing hands between two people at an ornate wedding mandap, warm string lights blurred in the background, cinematic golden-hour glow, no faces visible",
+      "image_mode": "editorial",
+      "headline": "Receive ₹2 lakh in cash — and owe a 100% penalty.",
+      "highlight": "100% penalty",
+      "image": "assets/gen_00.png"
     },
     {
       "type": "mythfact",
       "label": "MYTH vs FACT",
-      "myth": "Arrears are just extra pay — I'll pay tax at my normal rate.",
-      "truth": "Section 89(1) recalculates tax year-by-year, legally slashing the bill."
+      "myth": "Cash is private — no one tracks how much you receive.",
+      "truth": "Section 269ST penalises the RECEIVER 100% of any cash above ₹2 lakh."
     },
     {
-      "type": "list",
-      "label": "LEGAL BUT GENIUS",
-      "title": "Section 89(1): how it saves you",
-      "points": [
-        "Arrears spread across the years they relate to",
-        "Tax recalculated for each past year separately",
-        "You pay only the genuine excess",
-        "File Form 10E online BEFORE your ITR",
-        "Miss 10E = relief permanently disallowed"
-      ]
+      "type": "statement",
+      "label": "REAL TALK",
+      "headline": "Wedding. Property deal. Family loan. Section 269ST doesn't ask why.",
+      "highlight": "Section 269ST"
+    },
+    {
+      "type": "bignum",
+      "label": "THE NUMBERS",
+      "value": "₹2,00,000",
+      "body": "Cross this limit in one day — penalty equals the full amount received."
     },
     {
       "type": "photofeature",
-      "label": "TAX PLANNING",
-      "image_prompt": "A young Indian woman smiles with visible relief at a laptop showing an online government portal submission confirmation screen, bright morning sunlight through a window behind her, a coffee mug on the desk, no readable text on the screen",
-      "image_mode": "bright",
-      "headline": "File Form 10E first — THEN your ITR. That order is everything.",
-      "highlight": "order is everything",
-      "caption": "One form can save thousands in arrears tax.",
-      "image": "assets/gen_05.png"
+      "label": "TAX FILES",
+      "image_prompt": "Anxious middle-aged Indian man at a kitchen table under a single harsh overhead bulb, staring at an official tax notice, a banded stack of cash sitting next to it, documentary noir style",
+      "image_mode": "noir",
+      "headline": "₹3 lakh cash received at a wedding = ₹3 lakh penalty. On you.",
+      "highlight": "₹3 lakh penalty",
+      "caption": "The receiver pays — not the one who gave.",
+      "image": "assets/gen_04.png"
+    },
+    {
+      "type": "list",
+      "label": "REAL TALK",
+      "title": "Section 269ST catches you at:",
+      "points": [
+        "Wedding cash gifts from one family",
+        "Property token money paid in cash",
+        "Informal cash 'loan' from relatives",
+        "Doctor or contractor cash fees",
+        "Retail purchases above ₹2 lakh"
+      ]
     },
     {
       "type": "cta",
-      "headline": "Arrears arriving? File Form 10E before your ITR.",
-      "highlight": "File Form 10E before your ITR",
+      "headline": "Cash trap? Talk to us.",
+      "highlight": "Talk to us",
       "body": "GST from ₹600 · ITR from ₹999 · 100% on-time · Vadodara",
       "cta": "WhatsApp +91 98241 41138"
     }
