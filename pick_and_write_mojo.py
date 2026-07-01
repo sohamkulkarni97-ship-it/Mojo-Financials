@@ -176,12 +176,33 @@ def _call_model(system, user):
     return text
 
 
+def _repair_json(text):
+    text = re.sub(r",\s*([}\]])", r"\1", text)
+    result, in_string, escape_next = [], False, False
+    for ch in text:
+        if escape_next:
+            result.append(ch); escape_next = False
+        elif ch == "\\" and in_string:
+            result.append(ch); escape_next = True
+        elif ch == '"':
+            in_string = not in_string; result.append(ch)
+        elif in_string and ch in "\n\r\t":
+            result.append("\\n" if ch == "\n" else "\\r" if ch == "\r" else "\\t")
+        else:
+            result.append(ch)
+    return "".join(result)
+
+
 def _extract_json(text):
     text = re.sub(r"^```(?:json)?|```$", "", text.strip(), flags=re.MULTILINE).strip()
     a, b = text.find("{"), text.rfind("}")
     if a == -1 or b == -1:
         raise ValueError("No JSON object in model output")
-    return json.loads(text[a:b + 1])
+    raw = text[a:b + 1]
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError:
+        return json.loads(_repair_json(raw))
 
 
 def generate_post(candidates, avoid_lanes=None, avoid_titles=None):
