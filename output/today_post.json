@@ -1,62 +1,62 @@
 {
-  "chosen_title": "The ₹2 lakh cash limit most people don't know — Section 269ST",
-  "lane": "evergreen",
+  "chosen_title": "PPF for Your Minor Child — The Shared ₹1.5L Cap Most Parents Miss",
+  "lane": "tax",
   "series": "Money Myths",
-  "score": 86,
-  "caption": "Most people think cash is 'private money' — Section 269ST quietly disagrees.\n\nUnder Section 269ST of the Income Tax Act, receiving ₹2 lakh or more in cash from ONE person — in a single day, a single transaction, or for a single event — can attract a penalty equal to 100% of the amount received. It falls on YOU, the receiver. Not the person who handed it over.\n\nIllustration: wedding guests hand you ₹3 lakh cash collectively from one family. Even if it's a fully legal gift, you could face a ₹3 lakh penalty notice. (Illustrative only — actual liability depends on facts, amounts per person, and applicable exemptions.)\n\nThis trap quietly hits people at weddings, property token payments, contractor or doctor fees, and informal 'family loans'. The giver walks away; the receiver holds the notice.\n\nWhat to do: keep any single cash receipt under ₹2 lakh per person per day — for anything bigger, insist on a bank transfer. It's instant, free, and leaves zero penalty risk.\n\nAlready made a large cash transaction? Chat with us — we'll tell you exactly where you stand.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: Section 269ST, Income Tax Act, 1961\n\n#IncomeTax #CashLimit #Section269ST #TaxSavingTips #PersonalFinanceIndia #ITR #TaxPlanning #CharteredAccountant #Vadodara #SmallBusiness #WeddingFinance #TaxAlert",
+  "score": 79,
+  "caption": "Most parents think opening a PPF for their child gives them extra ₹1.5L of investment room. It doesn't.\n\nThe rule is clear: your own PPF account and all PPF accounts of your minor children (where you're the guardian) share ONE combined annual limit of ₹1.5 lakh. Not ₹1.5L each — ₹1.5L total.\n\nHere's the trap (illustration): Ravi maxes his own PPF at ₹1.5L, then deposits ₹1L in his daughter's account 'for her future.' That ₹1L earns zero interest. At 7.1% p.a., that's ₹7,100 quietly lost in Year 1 alone. The money is eventually returned — but without a single rupee of growth.\n\nThe silver lining: deposits in your child's PPF DO count toward YOUR Section 80C deduction — just within the shared ₹1.5L cap. Splitting between accounts is smart. Exceeding is not.\n\nWhat to do: Before your next PPF deposit, add up all contributions across your account and your children's accounts this financial year.\n\nNot sure how to split it? WhatsApp us — 15 minutes and it's sorted.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: PPF Scheme 1968, Rule 3(1); PPF interest rate per Ministry of Finance notification.\n\n#PPF #TaxSavingTips #PersonalFinanceIndia #IncomeTax #80C #TaxPlanning #SmallSavings #CharteredAccountant #Vadodara #ITR #FamilyFinance #InvestSmart",
   "slides": [
     {
       "type": "photocover",
-      "label": "REAL TALK",
-      "image_prompt": "Close-up of a thick bundle of Indian rupee notes changing hands between two people at an ornate wedding mandap, warm string lights blurred in the background, cinematic golden-hour glow, no faces visible",
+      "label": "MONEY MYTH",
+      "image_prompt": "Indian father at a bank branch desk handing a small PPF passbook to his young daughter, around 8 years old, both smiling, warm afternoon sunlight through tall windows, a quiet moment of parental pride",
       "image_mode": "editorial",
-      "headline": "Receive ₹2 lakh in cash — and owe a 100% penalty.",
-      "highlight": "100% penalty",
+      "headline": "Opening PPF for your child? That ₹1.5L limit is shared — not doubled.",
+      "highlight": "shared",
       "image": "assets/gen_00.png"
     },
     {
       "type": "mythfact",
       "label": "MYTH vs FACT",
-      "myth": "Cash is private — no one tracks how much you receive.",
-      "truth": "Section 269ST penalises the RECEIVER 100% of any cash above ₹2 lakh."
+      "myth": "My PPF and my child's PPF each have their own ₹1.5L annual limit.",
+      "truth": "All PPF accounts — yours and your minor child's — share ONE combined ₹1.5L cap."
     },
     {
       "type": "statement",
       "label": "REAL TALK",
-      "headline": "Wedding. Property deal. Family loan. Section 269ST doesn't ask why.",
-      "highlight": "Section 269ST"
+      "headline": "Overshoot that cap and the extra money earns absolutely nothing.",
+      "highlight": "nothing"
     },
     {
       "type": "bignum",
       "label": "THE NUMBERS",
-      "value": "₹2,00,000",
-      "body": "Cross this limit in one day — penalty equals the full amount received."
+      "value": "₹7,100",
+      "body": "Interest lost on ₹1L excess PPF deposit — one year at 7.1% p.a."
     },
     {
       "type": "photofeature",
-      "label": "TAX FILES",
-      "image_prompt": "Anxious middle-aged Indian man at a kitchen table under a single harsh overhead bulb, staring at an official tax notice, a banded stack of cash sitting next to it, documentary noir style",
-      "image_mode": "noir",
-      "headline": "₹3 lakh cash received at a wedding = ₹3 lakh penalty. On you.",
-      "highlight": "₹3 lakh penalty",
-      "caption": "The receiver pays — not the one who gave.",
+      "label": "REAL TALK",
+      "image_prompt": "Close-up of two PPF passbooks placed side by side on a wooden desk — one adult-sized, one smaller with a child's name — next to a calculator displaying zero, soft diffused window light, muted tones",
+      "image_mode": "concept",
+      "headline": "Two passbooks. One limit. Split it right.",
+      "highlight": "One limit",
+      "caption": "Excess deposits earn nothing — not even a rupee.",
       "image": "assets/gen_04.png"
     },
     {
       "type": "list",
-      "label": "REAL TALK",
-      "title": "Section 269ST catches you at:",
+      "label": "TAX PLANNING",
+      "title": "Before you deposit, know this",
       "points": [
-        "Wedding cash gifts from one family",
-        "Property token money paid in cash",
-        "Informal cash 'loan' from relatives",
-        "Doctor or contractor cash fees",
-        "Retail purchases above ₹2 lakh"
-      ]
+        "Combined cap: your PPF + all minor children's PPFs",
+        "Excess earns zero interest — returned as-is",
+        "Child's deposit still qualifies for your 80C",
+        "Split the ₹1.5L wisely — don't exceed it"
+      ],
+      "highlight": "₹1.5L"
     },
     {
       "type": "cta",
-      "headline": "Cash trap? Talk to us.",
+      "headline": "Tax stress? Talk to us.",
       "highlight": "Talk to us",
       "body": "GST from ₹600 · ITR from ₹999 · 100% on-time · Vadodara",
       "cta": "WhatsApp +91 98241 41138"
