@@ -1,63 +1,64 @@
 {
-  "chosen_title": "PPF for Your Minor Child — The Shared ₹1.5L Cap Most Parents Miss",
+  "chosen_title": "ITR filing 2026: 6 costly mistakes salaried taxpayers should avoid before 31 July deadline",
   "lane": "tax",
-  "series": "Money Myths",
-  "score": 79,
-  "caption": "Most parents think opening a PPF for their child gives them extra ₹1.5L of investment room. It doesn't.\n\nThe rule is clear: your own PPF account and all PPF accounts of your minor children (where you're the guardian) share ONE combined annual limit of ₹1.5 lakh. Not ₹1.5L each — ₹1.5L total.\n\nHere's the trap (illustration): Ravi maxes his own PPF at ₹1.5L, then deposits ₹1L in his daughter's account 'for her future.' That ₹1L earns zero interest. At 7.1% p.a., that's ₹7,100 quietly lost in Year 1 alone. The money is eventually returned — but without a single rupee of growth.\n\nThe silver lining: deposits in your child's PPF DO count toward YOUR Section 80C deduction — just within the shared ₹1.5L cap. Splitting between accounts is smart. Exceeding is not.\n\nWhat to do: Before your next PPF deposit, add up all contributions across your account and your children's accounts this financial year.\n\nNot sure how to split it? WhatsApp us — 15 minutes and it's sorted.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: PPF Scheme 1968, Rule 3(1); PPF interest rate per Ministry of Finance notification.\n\n#PPF #TaxSavingTips #PersonalFinanceIndia #IncomeTax #80C #TaxPlanning #SmallSavings #CharteredAccountant #Vadodara #ITR #FamilyFinance #InvestSmart",
+  "series": "60-Second Explainer",
+  "score": 81,
+  "caption": "Your Form 16 arrived. Your employer deducted TDS. You think you're sorted — you're not.\n\nJuly 31 is 30 days away. The IT dept's AIS already holds your FD interest, dividends, mutual fund redemptions, and more. An ITR that doesn't match what the dept sees invites a notice — automatically.\n\nSix mistakes hitting salaried filers right now:\n① Wrong ITR form — capital gains or two employers? Don't use ITR-1.\n② AIS unchecked — cross-verify every entry before accepting pre-filled data.\n③ FD/savings interest not declared — banks report it; the dept sees it.\n④ 'TDS done = tax done' is wrong — all other income must still be declared.\n⑤ Regime chosen by habit — calculate both; the saving gap can exceed ₹30,000.\n⑥ Filing after July 31 — ₹5,000 penalty, even if you're owed a refund.\n\nIllustration: Amit (₹10L salary, 30% bracket) forgot to declare ₹80,000 FD interest. Tax due: ₹24,000. Under-reporting penalty at 50%: ₹12,000. Total surprise bill: ₹36,000 — from one missed line. (Numbers illustrative; actual liability depends on your regime and deductions.)\n\nWhat to do: Download your AIS at incometax.gov.in → match every entry against your documents → then file.\n\nNeed it done right before the deadline? WhatsApp us — ITR from ₹999, filed clean and on time.\n\nNote: general information, not professional advice — talk to us for your specific case.\n\nSource: Income Tax Act, Sections 234F, 270A; incometax.gov.in AIS portal\n\n#IncomeTax #ITR #ITRFiling #TaxSavingTips #PersonalFinanceIndia #AIS26AS #TaxPlanning #CharteredAccountant #Vadodara #SalariedIndia #ITR2026 #TaxDeadline",
   "slides": [
     {
       "type": "photocover",
-      "label": "MONEY MYTH",
-      "image_prompt": "Indian father at a bank branch desk handing a small PPF passbook to his young daughter, around 8 years old, both smiling, warm afternoon sunlight through tall windows, a quiet moment of parental pride",
+      "label": "ITR",
+      "image_prompt": "A young Indian man in casual clothes sitting at a home desk, staring anxiously at a laptop showing an income tax portal, a printed Form 16 and bank passbook spread open beside the keyboard, a wall calendar with July dates visible behind him, warm evening indoor light, editorial mood",
       "image_mode": "editorial",
-      "headline": "Opening PPF for your child? That ₹1.5L limit is shared — not doubled.",
-      "highlight": "shared",
+      "headline": "July 31 Is 30 Days Away — Don't File Before Reading This",
+      "highlight": "July 31",
       "image": "assets/gen_00.png"
     },
     {
-      "type": "mythfact",
-      "label": "MYTH vs FACT",
-      "myth": "My PPF and my child's PPF each have their own ₹1.5L annual limit.",
-      "truth": "All PPF accounts — yours and your minor child's — share ONE combined ₹1.5L cap."
+      "type": "list",
+      "label": "ITR",
+      "title": "6 Mistakes That Invite a Notice",
+      "points": [
+        "Wrong ITR form for your income",
+        "AIS / 26AS not cross-checked first",
+        "FD and savings interest not declared",
+        "Assuming TDS deducted means job done",
+        "Choosing tax regime without calculating both",
+        "Filing after the July 31 deadline"
+      ]
     },
     {
       "type": "statement",
       "label": "REAL TALK",
-      "headline": "Overshoot that cap and the extra money earns absolutely nothing.",
-      "highlight": "nothing"
+      "headline": "The IT dept's AIS already has your FD interest. Does your ITR?",
+      "highlight": "AIS"
     },
     {
       "type": "bignum",
       "label": "THE NUMBERS",
-      "value": "₹7,100",
-      "body": "Interest lost on ₹1L excess PPF deposit — one year at 7.1% p.a."
+      "value": "₹5,000",
+      "body": "Late-filing penalty under 234F — even if you're owed a refund."
     },
     {
       "type": "photofeature",
-      "label": "REAL TALK",
-      "image_prompt": "Close-up of two PPF passbooks placed side by side on a wooden desk — one adult-sized, one smaller with a child's name — next to a calculator displaying zero, soft diffused window light, muted tones",
-      "image_mode": "concept",
-      "headline": "Two passbooks. One limit. Split it right.",
-      "highlight": "One limit",
-      "caption": "Excess deposits earn nothing — not even a rupee.",
+      "label": "ITR",
+      "image_prompt": "A smiling Indian woman holding a printed ITR acknowledgement slip at a bright sunlit kitchen table, a cup of chai beside her laptop, expression of visible relief, airy home setting with soft natural light pouring through a window",
+      "image_mode": "bright",
+      "headline": "File Right, File Once — and Sleep Easy",
+      "highlight": "File Right",
+      "caption": "Check AIS first. Always.",
       "image": "assets/gen_04.png"
     },
     {
-      "type": "list",
-      "label": "TAX PLANNING",
-      "title": "Before you deposit, know this",
-      "points": [
-        "Combined cap: your PPF + all minor children's PPFs",
-        "Excess earns zero interest — returned as-is",
-        "Child's deposit still qualifies for your 80C",
-        "Split the ₹1.5L wisely — don't exceed it"
-      ],
-      "highlight": "₹1.5L"
+      "type": "mythfact",
+      "label": "MYTH vs FACT",
+      "myth": "My Form 16 covers everything — no extra declaration needed.",
+      "truth": "FD interest, dividends, capital gains — all yours to declare separately."
     },
     {
       "type": "cta",
-      "headline": "Tax stress? Talk to us.",
-      "highlight": "Talk to us",
+      "headline": "ITR stress before July 31? Talk to us.",
+      "highlight": "July 31",
       "body": "GST from ₹600 · ITR from ₹999 · 100% on-time · Vadodara",
       "cta": "WhatsApp +91 98241 41138"
     }
